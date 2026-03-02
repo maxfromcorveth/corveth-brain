@@ -1,11 +1,10 @@
 const Twitter = require('twitter');
 
 const client = new Twitter({
-  consumer_key: 'dkueMn2pmtVUdn51GBAgFSSM0',
-  consumer_secret: 'nSuWPVr6TGfD7ML35n7stVDWNgLCLV4zxFdGB0moeGdjIaRotO',
-  access_token_key: '2027865526333313024-QnTROy76RwOXk50cPXRkazEwk2GPIx',
-  access_token_secret: 'PHsQkvipLzCtmp5uxyQ09dEYTbKZOLxQtoLyAm6kDSdlz',
-  access_token: '2027865526333313024-QnTROy76RwOXk50cPXRkazEwk2GPIx',
+  consumer_key: 'dkueMn2pmtVUdn5iGBAqFSSM0',
+  consumer_secret: 'nSuWPVz6T6fD7ML35n7stVDWNgLCLV4zxFdGB0mqeGdJiaRotO',
+  access_token: '2027865526333313024-9RUWzU01hYwAyjnwieN9y0oKwRSaRR',
+  access_token_secret: 'SNQodf1DJvU4V5F72g7mSi3ha2BFH9nLke07V60ePhqP5',
 });
 
 const message = process.argv[2] || 'Hello from Hari Seldon! 🤖';
