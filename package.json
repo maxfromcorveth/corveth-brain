@@ -1,0 +1,24 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "> \"The individual is nothing. The pattern is everything.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxfromcorveth/seldon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxfromcorveth/seldon/issues"
+  },
+  "homepage": "https://github.com/maxfromcorveth/seldon#readme",
+  "dependencies": {
+    "oauth-1.0a": "^2.2.6",
+    "twitter": "^1.7.1"
+  }
+}
