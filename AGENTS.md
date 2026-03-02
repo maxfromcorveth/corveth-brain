@@ -207,6 +207,44 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## GitHub Workflow (Project Management)
+
+All work tracked via GitHub Issues → PRs. This ensures traceability.
+
+### Issue Types
+1. **Goal** — High-level objective (e.g., "Goal: $100k Revenue")
+   - Contains: Specs, ETA, linked Problems
+2. **Problem** — Blocker preventing goal (e.g., "Problem: Twitter API not working")
+   - Contains: Description, root cause, linked Goal, status, time spent
+
+### PR Rules
+- Small PRs (complete in 3-4 hours max)
+- Link PR to parent Problem
+- Include time spent
+- Pass CI, sign commits, conventional commits
+
+### Flow
+```
+Goal (#)
+    ├── Problem (#) ──→ Solution: PR
+    ├── Problem (#) ──→ Solution: PR
+    └── Problem (#) ──→ Solution: PR
+```
+
+### Commands
+```bash
+gh issue create --title "Goal: [statement]" --body "## Specs\n## ETA\n## Linked Problems"
+gh issue create --title "Problem: [statement]" --body "## Description\n## Linked Goal"
+gh pr create --title "feat: [description]" --body "## Solution to Problem\n## Linked Issue\n## Time Spent"
+```
+
+### Current Status
+- Goal: Generate $100k Revenue in Year 1 — Issue #4
+- Problems: #5 (Twitter), #6 (Stripe), #7 (Customers)
+- PR: #8 (Product setup)
+
+---
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
