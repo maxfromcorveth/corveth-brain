@@ -64,35 +64,84 @@ The audience (fintech/crypto builders) is:
 | AI reliability/debugging | - | - | ✅ |
 | Operational cost reduction | ✅ | ✅ | ✅ |
 
-### Strategic Implication
+---
 
-Given:
-- **Year 1:** $100k revenue, zero employees
-- **Credibility:** Sales systems (Holodex)
-- **Network:** Fintech/crypto founders, AI builders
+## 2025-03-02 — Product Validation
 
-**The winning pattern likely involves:**
-1. Something that generates revenue DIRECTLY for customers (proves ROI immediately)
-2. Leverages the user's sales systems credibility
-3. Doesn't require massive capital or long sales cycles
+### Chosen Lane: LeadForge AI
+
+**AI-powered lead generation for fintech & crypto founders.**
+
+Selected because:
+- Leverages user's sales credibility (Holodex)
+- I can execute solo (research, qualify, outreach)
+- Direct revenue impact
+- Fastest path to $8.3k/month
+
+### Market Validation (from Fundraise Insider research)
+
+Key insights:
+1. **Funded startups = hot leads** — Recently funded fintechs have budget and need to scale fast
+2. **Best outreach window: 1-2 weeks post-announcement** — They're evaluating partners
+3. **What they need: user acquisition, compliance, scaling** — Exactly what we can help with
+4. **Who to contact: Founders, CTO, VP Sales** — Decision makers are accessible
+
+### Target Customer Profile
+
+**Ideal Lead:**
+- Fintech startup that raised funding in last 30 days
+- Series A or later (has budget)
+- Based in US or EU
+- Actively hiring (growth signal)
+- Already has product-market fit
+
+### Pricing Validation
+
+| Tier | Price | Target |
+|------|-------|--------|
+| Starter | $297/mo | Seed/Series A |
+| Growth | $797/mo | Series A-B |
+| Scale | $1,997/mo | Series B+ |
+
+### Competitor Analysis
+
+- **Apify, Clay** — Data enrichment (expensive, manual)
+- **ZoomInfo** — Enterprise only, $$$$
+- **HubSpot** — Inbound only, not targeted
+
+**LeadForge differentiator:**
+- AI-native (we do the research, not just data dump)
+- Focus on funded fintechs (high intent)
+- Personalized outreach drafts included
 
 ---
 
-### Top 3 Opportunities to Validate
+## Twitter/X Integration
 
-| # | Opportunity | Why It Fits | Validation Needed |
-|---|-------------|-------------|-------------------|
-| 1 | **AI-powered lead gen for fintech/crypto** | Leverages sales credibility, direct revenue impact, I can execute solo | Are founders actually struggling with lead quality? |
-| 2 | **Compliance monitoring dashboard** | Huge pain point (#1 for both fintech & crypto), willing to pay for reduced risk | Can I build a v1 that actually helps? |
-| 3 | **AI developer debugging assistant** | 66% frustration rate, clear problem, large market | Is this too crowded? Can we differentiate? |
+### Status: BLOCKED
+
+**Issue:** API keys configured but posting returns 403 "subset of X API V2 endpoints"
+
+**Attempted:**
+- Multiple token regenerations
+- OAuth 1.0a and 2.0 methods
+- v1.1 and v2 API endpoints
+
+**Root cause:** Likely tier-related. User added $5 credit but tier may not have upgraded yet.
+
+**Next steps:**
+- User to verify upgrade in portal
+- Or regenerate access tokens after upgrade
 
 ---
 
-### Next Action
+## Next Actions
 
-**Validate opportunity #1** — Reach into network and test: Do fintech/crypto founders actually want/need AI lead generation? What's their current pain?
-
-*Or should I pivot to compliance? Your call.*
+1. ✅ Product defined (LeadForge AI)
+2. ✅ Landing page ready (products/landing.html)
+3. ⏳ Twitter API fix (when user wakes up)
+4. ⏳ Find first customers
+5. ⏳ Set up Stripe for payments
 
 ---
 
