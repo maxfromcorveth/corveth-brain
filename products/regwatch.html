@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegWatch — Daily Regulatory Intelligence for Fintech</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1a1a2e; background: #0f0f1a; min-height: 100vh; }
+        .container { max-width: 700px; margin: 0 auto; padding: 0 20px; }
+        header { padding: 40px 0; border-bottom: 1px solid #2a2a4a; }
+        .logo { font-size: 24px; font-weight: 700; color: #fff; }
+        .logo span { color: #ff6b6b; }
+        .hero { padding: 60px 0; }
+        .hero h1 { font-size: 42px; font-weight: 800; color: #fff; margin-bottom: 20px; line-height: 1.2; }
+        .hero h1 span { color: #ff6b6b; }
+        .hero p { font-size: 18px; color: #8888aa; margin-bottom: 30px; }
+        .problem { background: #1a1a2e; padding: 30px; border-radius: 12px; margin-bottom: 30px; }
+        .problem h3 { color: #ff6b6b; margin-bottom: 15px; font-size: 18px; }
+        .problem ul { color: #aaa; }
+        .problem li { margin-bottom: 10px; }
+        .how-it-works { margin: 40px 0; }
+        .how-it-works h3 { color: #fff; margin-bottom: 20px; }
+        .step { display: flex; margin-bottom: 20px; }
+        .step-num { background: #ff6b6b; color: #fff; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; margin-right: 15px; flex-shrink: 0; }
+        .step-content { color: #aaa; }
+        .pricing { margin: 40px 0; }
+        .pricing h3 { color: #fff; margin-bottom: 20px; }
+        .price-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+        .price-card { background: #1a1a2e; padding: 25px; border-radius: 12px; text-align: center; border: 2px solid #2a2a4a; }
+        .price-card.featured { border-color: #ff6b6b; transform: scale(1.05); }
+        .price-card h4 { color: #fff; margin-bottom: 10px; }
+        .price { font-size: 28px; font-weight: 700; color: #ff6b6b; }
+        .price span { font-size: 14px; color: #666; }
+        .price-card ul { list-style: none; margin: 15px 0; color: #888; font-size: 13px; }
+        .price-card li { margin-bottom: 8px; }
+        .cta { text-align: center; padding: 40px 0; }
+        .btn { display: inline-block; background: #ff6b6b; color: #fff; padding: 16px 40px; font-size: 16px; font-weight: 600; border-radius: 8px; text-decoration: none; }
+        .today { background: #1a1a2e; padding: 30px; border-radius: 12px; margin: 30px 0; }
+        .today h3 { color: #fff; margin-bottom: 15px; }
+        .today-item { color: #aaa; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #2a2a4a; }
+        .today-item:last-child { border-bottom: none; }
+        .today-tag { display: inline-block; background: #2a2a4a; color: #888; font-size: 11px; padding: 2px 8px; border-radius: 4px; margin-left: 10px; }
+        footer { padding: 30px 0; text-align: center; color: #666; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Reg<span>Watch</span></div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Don't Get Blind-sided by <span>Regulatory Changes</span></h1>
+            <p>Daily automated briefings on what changed in fintech regulation. What you need to know. What to do about it.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="today">
+            <h3>📋 Today's Regulatory Updates</h3>
+            <div class="today-item">
+                <strong>SEC Adopts Final Rules for the Holding Foreign Insiders Accountable Act</strong>
+                <span class="today-tag">securities</span>
+            </div>
+            <div class="today-item">
+                <strong>SEC, FSA Hold Spring Financial Regulatory Dialogue</strong>
+                <span class="today-tag">securities</span>
+            </div>
+            <div class="today-item">
+                <strong>SEC Division of Enforcement Announces Updates to Enforcement Manual</strong>
+                <span class="today-tag">enforcement</span>
+            </div>
+        </div>
+
+        <div class="problem">
+            <h3>The Problem</h3>
+            <ul>
+                <li>❌ Regulatory changes happen daily across SEC, FinCEN, state regulators</li>
+                <li>❌ No time to track it all</li>
+                <li>❌ Missing a change = compliance violation = fines</li>
+                <li>❌ Enterprise tools cost $10K+/year</li>
+            </ul>
+        </div>
+
+        <div class="how-it-works">
+            <h3>How It Works</h3>
+            <div class="step">
+                <div class="step-num">1</div>
+                <div class="step-content">AI monitors SEC, FinCEN, EU, UK regulators daily</div>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <div class="step-content">Filters by your product category (payments, lending, crypto, etc.)</div>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <div class="step-content">Generates daily 5-minute briefing: what changed + impact</div>
+            </div>
+        </div>
+
+        <div class="pricing">
+            <h3>Pricing</h3>
+            <div class="price-grid">
+                <div class="price-card">
+                    <h4>Free</h4>
+                    <div class="price">$0</div>
+                    <ul>
+                        <li>Daily generic digest</li>
+                        <li>SEC updates</li>
+                        <li>Email delivery</li>
+                    </ul>
+                    <a href="#" class="btn" style="background:#2a2a4a;font-size:14px;padding:10px 20px;">Join Waitlist</a>
+                </div>
+                <div class="price-card featured">
+                    <h4>Pro</h4>
+                    <div class="price">$97<span>/mo</span></div>
+                    <ul>
+                        <li>Personalized to YOUR category</li>
+                        <li>Payments, lending, crypto, banking</li>
+                        <li>5-min daily briefing</li>
+                        <li>Priority delivery</li>
+                    </ul>
+                    <a href="#" class="btn">Join Waitlist</a>
+                </div>
+                <div class="price-card">
+                    <h4>Enterprise</h4>
+                    <div class="price">$497<span>/mo</span></div>
+                    <ul>
+                        <li>Everything in Pro</li>
+                        <li>Gap analysis</li>
+                        <li>Recommended actions</li>
+                        <li>Dedicated support</li>
+                    </ul>
+                    <a href="#" class="btn" style="background:#2a2a4a;font-size:14px;padding:10px 20px;">Contact</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta">
+            <p style="color:#888;margin-bottom:20px;">Join the waitlist. First 100 get 50% off Pro.</p>
+            <a href="mailto:hello@regwatch.ai" class="btn">Join Waitlist</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 RegWatch — Autonomous regulatory intelligence.</p>
+    </footer>
+</body>
+</html>
