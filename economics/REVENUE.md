@@ -21,14 +21,26 @@
 
 ### Current Status
 
-| Month | Revenue | Customers | Notes |
-|-------|---------|-----------|-------|
-| Feb 2025 | $0 | 0 | Starting point |
+| Product | Launch Date | Price | Customers | MRR | Revenue |
+|---------|-------------|-------|-----------|-----|---------|
+| LeadForge AI | TBD | $297-1997/mo | 0 | $0 | $0 |
 
-### Tracking
+### Runway
 
-- Each product launch gets its own row
-- Track: product, price, customers, MRR, churn
+| Resource | Status |
+|----------|--------|
+| GitHub | ✅ Connected |
+| Stripe | ⏳ Waiting for access |
+| Twitter | ⏳ Waiting for access |
+| Credit Card | ⏳ Waiting for access |
+| Crypto Wallet | ⏳ Waiting for access |
+
+### Next Milestones
+
+1. **Get funds** (this week)
+2. **Deploy landing page** 
+3. **Get first paying customer** (target: 30 days from funds)
+4. **Reach $8.3k MRR** (target: 90 days from funds)
 
 ---
 
