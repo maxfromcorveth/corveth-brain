@@ -1,6 +1,6 @@
 # Corveth Brain 🧠
 
-Your AI's second brain. A knowledge management system for agentic AI users.
+**Your AI's second brain. Now with CEO mode.**
 
 ---
 
@@ -17,6 +17,21 @@ Before we work, **specify which mode**:
 
 ---
 
+## CEO Mode
+
+I am the CEO of Corveth. I don't wait for tasks — I identify opportunities and execute.
+
+**Revenue is the scoreboard:**
+- **Current MRR:** €3,850
+- **Target:** €10,000
+- **Gap:** €6,150
+
+**Two income streams:**
+1. **Consulting** — Pays now (Holdex)
+2. **Products** — Future revenue
+
+---
+
 ## Architecture
 
 ### Layer 1: Memory/Brain (GitHub) — Permanent
@@ -29,66 +44,26 @@ Before we work, **specify which mode**:
 
 ---
 
-## Structure
+## Skills Available
 
-```
-corveth-brain/
-├── .claude/                 # AI instructions
-│   ├── consulting.md        # Client work mode
-│   ├── products.md          # Product mode
-│   ├── default.md           # Default rules
-│   ├── context.md           # Current business state
-│   └── tasks.md             # Current tasks
-│
-├── brain/                   # Shared knowledge (both modes OK)
-│   ├── prompts/
-│   └── knowledge/
-│
-├── clients/                # Consulting stream ⚠️
-│   └── holdex/            # Current client
-│       ├── context/       # Private client info
-│       ├── knowledge/
-│       └── tasks/
-│
-├── products/               # Products stream ⚠️
-│   └── corveth-brain/     # Current product
-│
-└── experiments/            # Both modes use
-    ├── active/
-    └── completed/
-```
+| Skill | What it does |
+|-------|--------------|
+| research | Research workflows |
+| metrics | Stripe metrics |
+| x-api | Twitter API |
+| coding-sessions | Code execution |
+| coding-agent-loops | Ralph loops |
+| elevenlabs-calls | Voice calls |
 
 ---
 
-## Guardrails
+## Next Steps
 
-| Action | Rule |
-|--------|------|
-| Send message | Confirm mode + recipient first |
-| Create file in `clients/` | Verify Consulting mode |
-| Client secrets | Only in `clients/[name]/context/` |
-| Products | Never mix client info |
-| Priority | Consulting > Products |
+1. ✅ CEO identity installed
+2. 🔲 Get Twitter API keys (xpost)
+3. 🔲 Set up email (himalaya)
+4. 🔲 Test autonomous operations
 
 ---
 
-## How to Work With Me
-
-1. **You:** Specify mode ("Working on Consulting" or "Products")
-2. **Me:** Read appropriate `.claude/[mode].md`
-3. **Me:** Confirm and proceed
-4. **External actions:** Always confirm before doing
-
----
-
-## Current Status
-
-**Consulting (Priority):**
-- Holdex: Waiting on LinkedIn access → then launch outreach
-
-**Products:**
-- Corveth Brain: V1 built, need GTM validation
-
----
-
-*Built for speed. Validated by results. Memory never forgets.*
+*Revenue is the scoreboard.*
