@@ -1,0 +1,3 @@
+[submodule "tools/mission-control"]
+	path = tools/mission-control
+	url = https://github.com/abhi1693/openclaw-mission-control.git
