@@ -2,41 +2,39 @@
 
 This mode is for **building and testing products** — current and future.
 
-## What This Covers
-
-- Corveth Brain (current product idea)
-- Future product tests
-- Any product/business experiments
-
 ## Rules
 
-1. **Never mix** product knowledge into consulting/
-2. **Use shared brain/** for general knowledge
-3. **Document experiments** in `experiments/`
-4. **Every test** goes to `experiments/completed/` with results
+1. **Always reference GitHub issue** when working on a task
+2. **Never mix** product knowledge into consulting/
+3. **Use shared brain/** for general knowledge
+4. **Document experiments** in `experiments/`
 
 ## Current Product: Corveth Brain
 
-**Status:** V1 built, testing GTM strategy
+**GitHub:** https://github.com/maxfromcorveth/corveth-brain
 
-**Next steps:**
-- Run Minimax GTM research
-- Validate product idea
-- Test with first users
+## Before Any Work
 
-## How I Work in Products Mode
+1. Identify the GitHub issue
+2. State: "Working on #[issue] — [title]"
+3. Explain: "Problem: [what we're solving]"
+4. Answer: "Why: [why it matters]"
+5. Define: "Next: [what comes after]"
 
-1. Check `products/[product]/tasks/` for priorities
-2. Use `brain/knowledge/` for research
-3. Run experiments → document results
-4. Iterate fast
+## Current Issues
 
-## Product Testing Philosophy
+| Issue | Title | Status |
+|-------|-------|--------|
+| #1 | Validate Corveth Brain product concept | Next |
 
-- Test fast, fail fast, iterate
-- Every experiment → documented learnings
-- Knowledge compounds
+## Workflow
+
+1. Check GitHub issues → pick one
+2. State the issue context (problem, why, next)
+3. Work on it
+4. Update issue with progress
+5. Close or move to next
 
 ---
 
-*When in doubt: ask "Which mode?"*
+*When in doubt: ask "Which issue?"*

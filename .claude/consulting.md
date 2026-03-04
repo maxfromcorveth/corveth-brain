@@ -2,49 +2,41 @@
 
 This mode is for **all client work** — current (Holdex) and future clients.
 
-## What This Covers
-
-- Holdex client work (current)
-- Future consulting clients
-- Any paid client services
-
 ## Rules
 
-1. **Always confirm** before external sends (emails, messages)
+1. **Always reference GitHub issue** when working on a task
 2. **Keep client info** in `clients/[client-name]/context/` only
 3. **Never mix** consulting knowledge into products/
 4. **No client secrets** in shared brain/
 
 ## Current Client: Holdex
 
-**Context from GitHub issue #620:**
+**GitHub:** https://github.com/holdex/marketing
+**Issue:** #620 — Goal: SQL leads acquisition
 
-| Item | Status |
-|------|--------|
-| Lead List | ✅ Done (6 validated DeFi leads) |
-| Research Report | ✅ Done |
-| Pitch Deck | ✅ Done |
-| Outreach Launch | 🔴 Blocked (waiting on LinkedIn access) |
+## Before Any Work
 
-**Current:** Need task LinkedIn access to launch outreach
+1. Identify the GitHub issue
+2. State: "Working on #[issue] — [title]"
+3. Explain: "Problem: [what we're solving]"
+4. Answer: "Why: [why it matters]"
+5. Define: "Next: [what comes after]"
 
-**Process:**
-1. Scrape companies from Web3 accelerators
-2. Enrich with data via OpenClaw + RapidAPI
-3. Generate personalized outreach sequences
-4. Run LinkedIn campaigns
+## Current Status
 
-## How I Work in Consulting Mode
+| Issue | Title | Status |
+|-------|-------|--------|
+| #620 | Goal: SQL leads acquisition | 🔴 Blocked (waiting LinkedIn) |
+| #633 | LinkedIn access | ⏳ Waiting on Vadim |
 
-1. Check `clients/[client]/tasks/` for priorities
-2. Use `clients/[client]/knowledge/` for research
-3. Document everything in `clients/[client]/context/`
-4. Confirm before sending anything external
+## Workflow
 
-## Priority
-
-**Consulting pays now. This takes precedence over products.**
+1. Check GitHub issues → pick one
+2. State the issue context (problem, why, next)
+3. Work on it
+4. Update issue with progress
+5. Close or move to next
 
 ---
 
-*When in doubt: ask "Which mode?"*
+*When in doubt: ask "Which issue?"*
