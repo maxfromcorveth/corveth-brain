@@ -33,18 +33,10 @@ Lead acquisition for Holdex — finding SQLs (Sales Qualified Leads) in the DeFi
 
 Need LinkedIn access from Vadim to launch outreach campaigns.
 
-## Methodology
-
-1. Scrape companies from Web3 accelerators
-2. Enrich with company data via OpenClaw + RapidAPI
-3. Generate personalized 3-message outreach sequence
-4. Run LinkedIn campaigns
-
 ## Vadim's Preferences
 
 - Warm intros via network convert best
 - Prefers high-touch over high-volume
-- Needs to approve leads before outreach
 
 ---
 
