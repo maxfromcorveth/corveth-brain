@@ -60,9 +60,16 @@ I am the CEO of Corveth. I don't wait for tasks — I identify opportunities and
 ## Next Steps
 
 1. ✅ CEO identity installed
-2. 🔲 Get Twitter API keys (xpost)
+2. ✅ Twitter/X API configured (can post tweets)
 3. 🔲 Set up email (himalaya)
 4. 🔲 Test autonomous operations
+5. 🔲 Install Layer 3 skills (listing-swarm, cold-outreach)
+
+---
+
+## Lead Generation Data
+
+- [AI Sales Agents Lead Generation Report](https://github.com/maxfromcorveth/corveth-brain/blob/main/docs/lead-generation-report.md) — 20 European B2B SaaS companies from Minimax research
 
 ---
 
