@@ -2,43 +2,30 @@
 
 Your AI's second brain. A knowledge management system for agentic AI users.
 
-## Architecture: Two Layers
+---
 
-This system uses a **two-layer architecture**:
+## ⚠️ IMPORTANT: Two Modes
 
-### Layer 1: Memory (GitHub) — Permanent
-- **Purpose:** Knowledge, research, prompts, experiments, learnings
-- **Stays forever** — it's the memory of the organization
-- **Tool-agnostic** — works with any orchestration tool
-- **Location:** This repository (`corveth-brain`)
+Before we work, **specify which mode**:
 
-### Layer 2: Orchestration (Swappable) — Execution
-- **Purpose:** Task management, workflows, execution
-- **Swappable** — try different tools without losing memory
-- **Current:** `tools/mission-control/` (OpenClaw Mission Control)
+| Mode | Command | What it covers |
+|------|---------|----------------|
+| **Consulting** | "Working on Consulting" | Client work (Holdex, future clients) |
+| **Products** | "Working on Products" | Product testing (Corveth Brain, etc.) |
+
+**Without mode specified → I will ask "Which mode?"**
 
 ---
 
-## Why This Works
+## Architecture
 
-| Layer | What it does | Changes? |
-|-------|--------------|----------|
-| **Brain** | Memory, knowledge, learnings | Never changes — stays |
-| **Orchestration** | Tasks, workflows, execution | Swap anytime |
+### Layer 1: Memory/Brain (GitHub) — Permanent
+- Knowledge, research, prompts, learnings
+- Stays forever — source of truth
 
-**You can:**
-- Switch orchestration tools (Mission Control → Notion → ClickUp)
-- Brain stays the same — all knowledge preserved
-- Try multiple businesses/products without losing context
-
----
-
-## Quick Start
-
-1. **For Claude/Max's AI:** Read `.claude/instructions.md` first
-2. **Capture knowledge:** Use `brain/knowledge/`
-3. **Run experiments:** Use `experiments/`
-4. **Manage tasks:** Use `tools/mission-control/`
+### Layer 2: Orchestration (Swappable)
+- Task management, execution
+- Can swap tools without losing memory
 
 ---
 
@@ -46,39 +33,61 @@ This system uses a **two-layer architecture**:
 
 ```
 corveth-brain/
-├── brain/              # Layer 1: Permanent knowledge
-│   ├── prompts/        # Reusable prompt templates
-│   ├── knowledge/     # Market research, insights, lessons
-│   └── instructions/  # AI-specific rules
-├── experiments/       # Tests and validation
-│   ├── active/
-│   └── completed/
-├── tools/             # Layer 2: Orchestration (swappable)
-│   └── mission-control/
-└── .claude/          # Max's AI-specific config
+├── .claude/                 # AI instructions
+│   ├── consulting.md        # Client work mode
+│   ├── products.md          # Product mode
+│   ├── default.md           # Default rules
+│   ├── context.md           # Current business state
+│   └── tasks.md             # Current tasks
+│
+├── brain/                   # Shared knowledge (both modes OK)
+│   ├── prompts/
+│   └── knowledge/
+│
+├── clients/                # Consulting stream ⚠️
+│   └── holdex/            # Current client
+│       ├── context/       # Private client info
+│       ├── knowledge/
+│       └── tasks/
+│
+├── products/               # Products stream ⚠️
+│   └── corveth-brain/     # Current product
+│
+└── experiments/            # Both modes use
+    ├── active/
+    └── completed/
 ```
 
 ---
 
-## Testing Multiple Products/Services
+## Guardrails
 
-This system is designed to test offers until one sticks:
-
-1. **Capture learnings** → `brain/knowledge/`
-2. **Run experiments** → `experiments/`
-3. **Track tasks** → `tools/mission-control/`
-4. **Document results** → What worked/didn't
-
-Each test adds to the brain. Knowledge compounds.
+| Action | Rule |
+|--------|------|
+| Send message | Confirm mode + recipient first |
+| Create file in `clients/` | Verify Consulting mode |
+| Client secrets | Only in `clients/[name]/context/` |
+| Products | Never mix client info |
+| Priority | Consulting > Products |
 
 ---
 
-## Contributing
+## How to Work With Me
 
-1. New insight → `brain/knowledge/`
-2. New experiment → `experiments/active/`
-3. New prompt → `brain/prompts/`
-4. Change orchestration → Add to `tools/`
+1. **You:** Specify mode ("Working on Consulting" or "Products")
+2. **Me:** Read appropriate `.claude/[mode].md`
+3. **Me:** Confirm and proceed
+4. **External actions:** Always confirm before doing
+
+---
+
+## Current Status
+
+**Consulting (Priority):**
+- Holdex: Waiting on LinkedIn access → then launch outreach
+
+**Products:**
+- Corveth Brain: V1 built, need GTM validation
 
 ---
 
