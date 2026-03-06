@@ -1,0 +1,28 @@
+{
+  "goal": "Land 2-3 consulting clients by Q2 2026",
+  "status": "building-case-study",
+  "currentClient": {
+    "name": "Holdex",
+    "mrr": 3850,
+    "startDate": "2026-03-02",
+    "focus": "CRM, outreach, content, social"
+  },
+  "pipeline": [],
+  "nextActions": [
+    {
+      "task": "Document Holdex Week 1 results",
+      "status": "pending",
+      "due": "2026-03-09"
+    },
+    {
+      "task": "Create case study template",
+      "status": "pending",
+      "due": "2026-03-10"
+    },
+    {
+      "task": "Identify 10 target prospects",
+      "status": "pending",
+      "due": "2026-03-11"
+    }
+  ]
+}
