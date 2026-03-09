@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corveth Consulting | Revenue Operations Partner for Scaling B2B SaaS</title>
+    <meta name="description" content="Corveth Consulting helps growth-stage B2B SaaS companies build the operational infrastructure to scale from $5M to $50M. Book your free consultation.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --color-primary: #1A2744;
+            --color-accent: #00A896;
+            --color-background: #F8F9FA;
+            --color-text-secondary: #4A5568;
+            --color-light-bg: #E2E8F0;
+            --color-premium: #D4A84B;
+            --font-heading: 'DM Sans', sans-serif;
+            --font-body: 'Source Sans 3', sans-serif;
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --shadow-sm: 0 2px 8px rgba(26, 39, 68, 0.08);
+            --shadow-md: 0 4px 16px rgba(26, 39, 68, 0.12);
+            --shadow-lg: 0 8px 32px rgba(26, 39, 68, 0.16);
+        }
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body { font-family: var(--font-body); font-size: 16px; line-height: 1.6; color: var(--color-primary); background-color: var(--color-background); }
+        h1, h2, h3, h4 { font-family: var(--font-heading); line-height: 1.2; }
+        h1 { font-size: 48px; font-weight: 700; }
+        h2 { font-size: 36px; font-weight: 700; }
+        h3 { font-size: 24px; font-weight: 500; }
+        h4 { font-size: 20px; font-weight: 500; }
+        p { color: var(--color-text-secondary); }
+        a { text-decoration: none; color: inherit; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        .btn { display: inline-block; padding: 14px 28px; border-radius: var(--radius-sm); font-family: var(--font-heading); font-weight: 500; font-size: 16px; cursor: pointer; transition: all 0.3s ease; border: none; }
+        .btn-primary { background-color: var(--color-accent); color: white; }
+        .btn-primary:hover { background-color: #008f7f; transform: translateY(-2px); box-shadow: var(--shadow-md); }
+        .btn-secondary { background-color: transparent; color: white; border: 2px solid white; }
+        .btn-secondary:hover { background-color: white; color: var(--color-primary); transform: translateY(-2px); }
+        .btn-outline { background-color: transparent; color: var(--color-accent); border: 2px solid var(--color-accent); }
+        .btn-outline:hover { background-color: var(--color-accent); color: white; transform: translateY(-2px); }
+        .nav { position: fixed; top: 0; left: 0; right: 0; background-color: white; box-shadow: var(--shadow-sm); z-index: 1000; padding: 16px 0; }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        .nav-logo { display: flex; align-items: center; gap: 8px; font-family: var(--font-heading); font-weight: 700; font-size: 24px; color: var(--color-primary); }
+        .nav-logo-icon { width: 32px; height: 32px; background: linear-gradient(135deg, var(--color-accent), var(--color-premium)); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 18px; }
+        .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+        .nav-links a { font-family: var(--font-body); font-weight: 600; color: var(--color-text-secondary); transition: color 0.3s ease; }
+        .nav-links a:hover { color: var(--color-accent); }
+        .nav-cta { padding: 10px 20px; }
+        .nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; }
+        .nav-toggle span { width: 24px; height: 2px; background-color: var(--color-primary); transition: all 0.3s ease; }
+        .hero { background-color: var(--color-primary); min-height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden; padding: 120px 0 80px; }
+        .hero::before { content: ''; position: absolute; top: -50%; right: -20%; width: 80%; height: 200%; background: linear-gradient(135deg, rgba(0, 168, 150, 0.1) 0%, transparent 60%); transform: rotate(-15deg); }
+        .hero::after { content: ''; position: absolute; bottom: -30%; left: -10%; width: 60%; height: 100%; background: linear-gradient(45deg, rgba(212, 168, 75, 0.08) 0%, transparent 50%); transform: rotate(15deg); }
+        .hero-content { max-width: 700px; position: relative; z-index: 1; }
+        .hero h1 { color: white; margin-bottom: 24px; }
+        .hero-subtitle { font-size: 20px; color: rgba(255, 255, 255, 0.85); margin-bottom: 40px; max-width: 560px; }
+        .hero-buttons { display: flex; gap: 16px; flex-wrap: wrap; }
+        section { padding: 100px 0; }
+        .section-header { text-align: center; max-width: 700px; margin: 0 auto 60px; }
+        .section-header h2 { color: var(--color-primary); margin-bottom: 16px; }
+        .section-header p { font-size: 18px; }
+        .revops { background-color: white; }
+        .revops-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+        .revops-card { background-color: var(--color-background); padding: 32px; border-radius: var(--radius-md); text-align: center; transition: all 0.3s ease; }
+        .revops-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+        .revops-icon { width: 64px; height: 64px; background: linear-gradient(135deg, var(--color-accent), #008f7f); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
+        .revops-icon svg { width: 32px; height: 32px; stroke: white; fill: none; stroke-width: 2; }
+        .revops-card h3 { color: var(--color-primary); margin-bottom: 12px; }
+        .revops-card p { font-size: 15px; }
+        .services { background-color: var(--color-background); }
+        .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+        .service-card { background-color: white; padding: 40px 32px; border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); transition: all 0.3s ease; display: flex; flex-direction: column; }
+        .service-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+        .service-badge { display: inline-block; background: linear-gradient(135deg, var(--color-premium), #c49a42); color: white; padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 20px; width: fit-content; }
+        .service-card h3 { color: var(--color-primary); margin-bottom: 16px; }
+        .service-card > p { font-size: 15px; margin-bottom: 24px; flex-grow: 1; }
+        .service-outcomes { margin-bottom: 24px; padding-top: 20px; border-top: 1px solid var(--color-light-bg); }
+        .service-outcomes h4 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--color-text-secondary); margin-bottom: 12px; }
+        .service-outcomes ul { list-style: none; }
+        .service-outcomes li { font-size: 14px; color: var(--color-text-secondary); padding: 4px 0; padding-left: 20px; position: relative; }
+        .service-outcomes li::before { content: '✓'; position: absolute; left: 0; color: var(--color-accent); font-weight: 700; }
+        .service-price { font-family: var(--font-heading); font-size: 24px; font-weight: 700; color: var(--color-accent); margin-bottom: 20px; }
+        .service-card .btn { width: 100%; text-align: center; }
+        .why-corveth { background-color: white; }
+        .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+        .why-card { text-align: center; padding: 40px 32px; }
+        .why-number { width: 56px; height: 56px; background: linear-gradient(135deg, var(--color-accent), #008f7f); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px; color: white; font-family: var(--font-heading); font-size: 24px; font-weight: 700; }
+        .why-card h3 { color: var(--color-primary); margin-bottom: 12px; }
+        .why-card p { font-size: 15px; }
+        .icp { background: linear-gradient(135deg, var(--color-primary) 0%, #2a3d5f 100%); position: relative; overflow: hidden; }
+        .icp::before { content: ''; position: absolute; top: 0; right: 0; width: 50%; height: 100%; background: linear-gradient(135deg, transparent 0%, rgba(0, 168, 150, 0.1) 100%); }
+        .icp-content { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+        .icp-text h2 { color: white; margin-bottom: 16px; }
+        .icp-text > p { color: rgba(255, 255, 255, 0.8); font-size: 18px; margin-bottom: 32px; }
+        .icp-traits { display: flex; flex-direction: column; gap: 16px; }
+        .icp-trait { display: flex; align-items: center; gap: 12px; color: white; font-size: 16px; }
+        .icp-trait-icon { width: 24px; height: 24px; background-color: var(--color-accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .icp-trait-icon svg { width: 12px; height: 12px; stroke: white; stroke-width: 3; }
+        .icp-card { background-color: white; padding: 48px; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); text-align: center; }
+        .icp-card h3 { color: var(--color-primary); margin-bottom: 12px; }
+        .icp-card p { margin-bottom: 24px; }
+        .social-proof { background-color: var(--color-background); text-align: center; }
+        .proof-stats { display: flex; justify-content: center; gap: 80px; margin-bottom: 48px; }
+        .proof-stat { text-align: center; }
+        .proof-number { font-family: var(--font-heading); font-size: 56px; font-weight: 700; color: var(--color-accent); line-height: 1; margin-bottom: 8px; }
+        .proof-label { font-size: 16px; color: var(--color-text-secondary); }
+        .proof-quote { max-width: 700px; margin: 0 auto; }
+        .proof-quote blockquote { font-size: 22px; font-style: italic; color: var(--color-primary); margin-bottom: 16px; line-height: 1.5; }
+        .proof-author { color: var(--color-text-secondary); font-size: 14px; }
+        .footer { background-color: var(--color-primary); padding: 60px 0 30px; color: white; }
+        .footer-content { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 60px; margin-bottom: 40px; }
+        .footer-brand p { color: rgba(255, 255, 255, 0.7); margin-top: 16px; font-size: 15px; }
+        .footer h4 { color: white; margin-bottom: 20px; font-size: 16px; }
+        .footer-links { list-style: none; }
+        .footer-links li { margin-bottom: 12px; }
+        .footer-links a { color: rgba(255, 255, 255, 0.7); font-size: 15px; transition: color 0.3s ease; }
+        .footer-links a:hover { color: var(--color-accent); }
+        .footer-contact p { color: rgba(255, 255, 255, 0.7); font-size: 15px; margin-bottom: 8px; }
+        .footer-bottom { padding-top: 30px; border-top: 1px solid rgba(255, 255, 255, 0.1); text-align: center; color: rgba(255, 255, 255, 0.5); font-size: 14px; }
+        @media (max-width: 1024px) { h1 { font-size: 40px; } h2 { font-size: 32px; } .revops-grid, .services-grid, .why-grid { grid-template-columns: repeat(2, 1fr); } .icp-content { grid-template-columns: 1fr; gap: 40px; } .proof-stats { gap: 40px; } }
+        @media (max-width: 768px) { h1 { font-size: 32px; } h2 { font-size: 28px; } .nav-links { position: fixed; top: 70px; left: 0; right: 0; background-color: white; flex-direction: column; padding: 24px; gap: 20px; box-shadow: var(--shadow-md); transform: translateY(-100%); opacity: 0; visibility: hidden; transition: all 0.3s ease; } .nav-links.active { transform: translateY(0); opacity: 1; visibility: visible; } .nav-toggle { display: flex; } .nav-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); } .nav-toggle.active span:nth-child(2) { opacity: 0; } .nav-toggle.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); } .hero { padding: 100px 0 60px; min-height: auto; } .hero-buttons { flex-direction: column; } .hero-buttons .btn { width: 100%; text-align: center; } section { padding: 60px 0; } .revops-grid, .services-grid, .why-grid { grid-template-columns: 1fr; } .proof-stats { flex-direction: column; gap: 32px; } .footer-content { grid-template-columns: 1fr; gap: 40px; text-align: center; } .icp-card { padding: 32px 24px; } }
+        @media (max-width: 480px) { .container { padding: 0 16px; } .section-header { margin-bottom: 40px; } .service-card { padding: 32px 24px; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo"><div class="nav-logo-icon">C</div>Corveth</a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-corveth">Why Corveth</a></li>
+                <li><a href="#icp">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://calendly.com/corveth-group/free-consultation" target="_blank" class="btn btn-primary nav-cta">Book Free Consultation</a></li>
+            </ul>
+            <div class="nav-toggle" onclick="toggleMobileMenu()"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>The Revenue Operations Partner for Companies Ready to Scale</h1>
+                <p class="hero-subtitle">We help growth-stage B2B SaaS companies build the operational infrastructure to scale from $5M to $50M—without the chaos.</p>
+                <div class="hero-buttons">
+                    <a href="https://calendly.com/corveth-group/free-consultation" target="_blank" class="btn btn-primary">Book Your Free Consultation</a>
+                    <a href="#services" class="btn btn-secondary">See Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="revops" id="revops">
+        <div class="container">
+            <div class="section-header"><h2>Why RevOps Matters</h2><p>Revenue operations eliminates the friction that's costing you growth.</p></div>
+            <div class="revops-grid">
+                <div class="revops-card"><div class="revops-icon"><svg viewBox="0 0 24 24"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg></div><h3>Revenue Leakage</h3><p>Disconnected systems and manual processes create gaps where revenue escapes undetected. RevOps connects your tools and closes the leaks.</p></div>
+                <div class="revops-card"><div class="revops-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h3>Sales & Marketing Misalignment</h3><p>When sales and marketing operate in silos, deals stall and leads go cold. RevOps creates shared goals and clear hand-offs.</p></div>
+                <div class="revops-card"><div class="revops-icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div><h3>Scaling Chaos</h3><p>What worked at $5M breaks at $20M. RevOps builds infrastructure that grows with you, preventing operational burnout.</p></div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header"><h2>Our Services</h2><p>Strategic implementations that deliver measurable revenue impact.</p></div>
+            <div class="services-grid">
+                <div class="service-card"><span class="service-badge">Most Popular</span><h3>Revenue Operations Assessment & Roadmap</h3><p>A comprehensive evaluation of your current RevOps maturity with a prioritized implementation plan and quick wins.</p><div class="service-outcomes"><h4>Typical Outcomes</h4><ul><li>Clear view of RevOps gaps and opportunities</li><li>Prioritized 90-day action plan</li><li>3-5 immediate quick wins</li><li>Executive-level presentation</li></ul></div><div class="service-price">$10K - $20K</div><a href="https://calendly.com/corveth-group/free-consultation" target="_blank" class="btn btn-outline">Book Consultation</a></div>
+                <div class="service-card"><span class="service-badge">High Impact</span><h3>CRM Optimization & Data Architecture</h3><p>Clean, optimize, and automate your CRM to become the single source of truth for revenue intelligence.</p><div class="service-outcomes"><h4>Typical Outcomes</h4><ul><li>Clean, standardized data model</li><li>Optimized pipeline visibility</li><li>Automated workflow efficiencies</li><li>Real-time revenue dashboards</li></ul></div><div class="service-price">$15K - $35K</div><a href="https://calendly.com/corveth-group/free-consultation" target="_blank" class="btn btn-outline">Book Consultation</a></div>
+                <div class="service-card"><span class="service-badge">Growth Driver</span><h3>Sales & Marketing Alignment</h3><p>Create seamless coordination between sales and marketing with SLAs, lead scoring, and attribution models.</p><div class="service-outcomes"><h4>Typical Outcomes</h4><ul><li>Defined lead scoring criteria</li><li>Service level agreements</li><li>Full-funnel attribution visibility</li><li>Weekly sync cadences</li></ul></div><div class="service-price">$10K - $25K</div><a href="https://calendly.com/corveth-group/free-consultation" target="_blank" class="btn btn-outline">Book Consultation</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="why-corveth" id="why-corveth">
+        <div class="container">
+            <div class="section-header"><h2>Why Corveth?</h2><p>We bring a different approach to revenue operations consulting.</p></div>
+            <div class="why-grid">
+                <div class="why-card"><div class="why-number">1</div><h3>Implementation Over Assessment</h3><p>Most consultants deliver a PDF and walk away. We stay until it works. We implement, iterate, and optimize until you see results.</p></div>
+                <div class="why-card"><div class="why-number">2</div><h3>Growth-Stage Specialization</h3><p>We've worked with companies at your stage. We understand the unique challenges of scaling from $5M to $50M and beyond.</p></div>
+                <div class="why-card"><div class="why-number">3</div><h3>Practical, Not Theoretical</h3><p>We've done these jobs. Our team has built and scaled RevOps functions at high-growth SaaS companies. We know what works.</p></div>
+            </div>
+        </div>
+    </section>
+    <section class="icp" id="icp">
+        <div class="container">
+            <div class="icp-content">
+                <div class="icp-text"><h2>Who We Help</h2><p>We partner with B2B SaaS companies that have proven product-market fit and are ready to scale their revenue operations.</p><div class="icp-traits"><div class="icp-trait"><div class="icp-trait-icon"><svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12"/></svg></div><span>B2B SaaS companies, $5M - $50M ARR</span></div><div class="icp-trait"><div class="icp-trait-icon"><svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12"/></svg></div><span>Series A - Series C funding stage</span></div><div class="icp-trait"><div class="icp-trait-icon"><svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12"/></svg></div><span>50-500 employees with growing teams</span></div><div class="icp-trait"><div class="icp-trait-icon"><svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12"/></svg></div><span>Already using or implementing a CRM</span></div></div></div>
+                <div class="icp-card"><h3>Ready to Scale?</h3><p>Let's discuss how we can help you build the operational infrastructure to reach $50M and beyond.</p><a href="https://calendly.com/corveth-group/free-consultation" target="_blank" class="btn btn-primary">Book Your Free Consultation</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="social-proof" id="proof">
+        <div class="container">
+            <div class="proof-stats"><div class="proof-stat"><div class="proof-number">$500M+</div><div class="proof-label">Revenue Operations Built</div></div><div class="proof-stat"><div class="proof-number">50+</div><div class="proof-label">Growth Companies Served</div></div><div class="proof-stat"><div class="proof-number">$10K - $100K</div><div class="proof-label">Project Engagements</div></div></div>
+            <div class="proof-quote"><blockquote>"Corveth transformed our revenue operations. We went from flying blind to having complete visibility into our pipeline. Revenue grew 40% in the first year."</blockquote><p class="proof-author">— VP of Revenue, B2B SaaS Company ($15M ARR)</p></div>
+        </div>
+    </section>
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand"><a href="#" class="nav-logo" style="color:white;"><div class="nav-logo-icon">C</div>Corveth</a><p>The revenue operations partner for growth-stage B2B SaaS companies ready to scale from $5M to $50M.</p></div>
+                <div class="footer-nav"><h4>Quick Links</h4><ul class="footer-links"><li><a href="#services">Services</a></li><li><a href="#why-corveth">Why Corveth</a></li><li><a href="#icp">About</a></li><li><a href="#proof">Results</a></li></ul></div>
+                <div class="footer-contact"><h4>Contact</h4><p>hello@corveth.com</p><p><a href="https://linkedin.com/company/corveth" target="_blank" style="color:var(--color-accent);">LinkedIn</a></p></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2026 Corveth Consulting. All rights reserved.</p></div>
+        </div>
+    </footer>
+    <script>
+        function toggleMobileMenu() { document.querySelector('.nav-links').classList.toggle('active'); document.querySelector('.nav-toggle').classList.toggle('active'); }
+        document.querySelectorAll('.nav-links a').forEach(link => { link.addEventListener('click', () => { document.querySelector('.nav-links').classList.remove('active'); document.querySelector('.nav-toggle').classList.remove('active'); }); });
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => { anchor.addEventListener('click', function(e) { e.preventDefault(); const target = document.querySelector(this.getAttribute('href')); if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }); });
+        window.addEventListener('scroll', () => { const nav = document.querySelector('.nav'); nav.style.boxShadow = window.scrollY > 50 ? 'var(--shadow-md)' : 'var(--shadow-sm)'; });
+    </script>
+</body>
+</html>
