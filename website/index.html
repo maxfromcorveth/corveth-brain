@@ -57,7 +57,7 @@
         .hero-content { max-width: 650px; position: relative; z-index: 1; }
         .hero h1 { color: white; margin-bottom: 24px; line-height: 1.1; }
         .hero-subtitle { font-size: 20px; color: rgba(255, 255, 255, 0.85); margin-bottom: 36px; max-width: 520px; }
-        .hero-buttons { display: flex; gap: 16px; flex-wrap: wrap; }
+        .hero .btn-primary { padding: 16px 32px; font-size: 17px; }
         section { padding: 90px 0; }
         .section-header { text-align: center; max-width: 650px; margin: 0 auto 56px; }
         .section-header h2 { color: var(--color-primary); margin-bottom: 16px; }
@@ -89,6 +89,16 @@
         .why-number { width: 52px; height: 52px; background: linear-gradient(135deg, var(--color-accent), #008f7f); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px; color: white; font-family: var(--font-heading); font-size: 22px; font-weight: 700; }
         .why-card h3 { color: var(--color-primary); margin-bottom: 12px; font-size: 20px; }
         .why-card p { font-size: 15px; }
+        .about { background-color: var(--color-background); }
+        .about-content { display: grid; grid-template-columns: 280px 1fr; gap: 48px; align-items: start; }
+        .about-image { width: 280px; height: 280px; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); }
+        .about-image img { width: 100%; height: 100%; object-fit: cover; }
+        .about-text h2 { margin-bottom: 8px; }
+        .about-text .subtitle { font-size: 18px; color: var(--color-accent); font-weight: 500; margin-bottom: 24px; }
+        .about-text p { margin-bottom: 16px; font-size: 16px; line-height: 1.7; }
+        .about-credentials { display: flex; gap: 24px; margin-top: 24px; flex-wrap: wrap; }
+        .credential { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--color-text-secondary); }
+        .credential-icon { width: 20px; height: 20px; stroke: var(--color-accent); }
         .icp { background: linear-gradient(135deg, var(--color-primary) 0%, #2a3d5f 100%); position: relative; overflow: hidden; }
         .icp::before { content: ''; position: absolute; top: 0; right: 0; width: 50%; height: 100%; background: linear-gradient(135deg, transparent 0%, rgba(0, 168, 150, 0.08) 100%); }
         .icp-content { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
@@ -111,8 +121,8 @@
         .footer-links a:hover { color: var(--color-accent); }
         .footer-contact p { color: rgba(255, 255, 255, 0.7); font-size: 15px; margin-bottom: 8px; }
         .footer-bottom { padding-top: 28px; border-top: 1px solid rgba(255, 255, 255, 0.1); text-align: center; color: rgba(255, 255, 255, 0.5); font-size: 14px; }
-        @media (max-width: 1024px) { h1 { font-size: 40px; } h2 { font-size: 32px; } .revops-grid, .services-grid, .why-grid { grid-template-columns: repeat(2, 1fr); } .icp-content { grid-template-columns: 1fr; gap: 40px; } }
-        @media (max-width: 768px) { h1 { font-size: 32px; } h2 { font-size: 28px; } .nav-links { position: fixed; top: 70px; left: 0; right: 0; background-color: white; flex-direction: column; padding: 24px; gap: 20px; box-shadow: var(--shadow-md); transform: translateY(-100%); opacity: 0; visibility: hidden; transition: all 0.3s ease; } .nav-links.active { transform: translateY(0); opacity: 1; visibility: visible; } .nav-toggle { display: flex; } .nav-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); } .nav-toggle.active span:nth-child(2) { opacity: 0; } .nav-toggle.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); } .hero { padding: 100px 0 60px; min-height: auto; } .hero-buttons { flex-direction: column; } .hero-buttons .btn { width: 100%; text-align: center; } section { padding: 60px 0; } .revops-grid, .services-grid, .why-grid { grid-template-columns: 1fr; } .footer-content { grid-template-columns: 1fr; gap: 40px; text-align: center; } .icp-card { padding: 32px 24px; } }
+        @media (max-width: 1024px) { h1 { font-size: 40px; } h2 { font-size: 32px; } .revops-grid, .services-grid, .why-grid { grid-template-columns: repeat(2, 1fr); } .icp-content { grid-template-columns: 1fr; gap: 40px; } .about-content { grid-template-columns: 1fr; } .about-image { width: 200px; height: 200px; margin: 0 auto; } }
+        @media (max-width: 768px) { h1 { font-size: 32px; } h2 { font-size: 28px; } .nav-links { position: fixed; top: 70px; left: 0; right: 0; background-color: white; flex-direction: column; padding: 24px; gap: 20px; box-shadow: var(--shadow-md); transform: translateY(-100%); opacity: 0; visibility: hidden; transition: all 0.3s ease; } .nav-links.active { transform: translateY(0); opacity: 1; visibility: visible; } .nav-toggle { display: flex; } .nav-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); } .nav-toggle.active span:nth-child(2) { opacity: 0; } .nav-toggle.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); } .hero { padding: 100px 0 60px; min-height: auto; } section { padding: 60px 0; } .revops-grid, .services-grid, .why-grid { grid-template-columns: 1fr; } .footer-content { grid-template-columns: 1fr; gap: 40px; text-align: center; } .icp-card { padding: 32px 24px; } .about-credentials { justify-content: center; } }
         @media (max-width: 480px) { .container { padding: 0 16px; } .section-header { margin-bottom: 40px; } .service-card { padding: 32px 24px; } }
     </style>
 </head>
@@ -123,7 +133,7 @@
             <ul class="nav-links">
                 <li><a href="#services">Services</a></li>
                 <li><a href="#why-corveth">Why Corveth</a></li>
-                <li><a href="#icp">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="https://calendly.com/corveth-group/free-consultation" target="_blank" class="btn btn-primary nav-cta">Book Free Consultation</a></li>
             </ul>
@@ -135,10 +145,7 @@
             <div class="hero-content">
                 <h1>The Revenue Operations Partner for Companies Ready to Scale</h1>
                 <p class="hero-subtitle">We help growth-stage B2B SaaS companies build the operational infrastructure to scale from $5M to $50M—without the chaos.</p>
-                <div class="hero-buttons">
-                    <a href="https://calendly.com/corveth-group/free-consultation" target="_blank" class="btn btn-primary">Book Your Free Consultation</a>
-                    <a href="#services" class="btn btn-secondary">See Our Services</a>
-                </div>
+                <a href="https://calendly.com/corveth-group/free-consultation" target="_blank" class="btn btn-primary">Book Your Free Consultation</a>
             </div>
         </div>
     </section>
@@ -172,6 +179,37 @@
             </div>
         </div>
     </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E03AQEXr_n0dqpNvw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1738607758104?e=1740000000&v=beta&t=3YzT8ZkVZmGqFqJjQk4LJYJ1YzVqJzQ7d0nP0xM8eI" alt="Max - Founder of Corveth Consulting">
+                </div>
+                <div class="about-text">
+                    <h2>Meet the Founder</h2>
+                    <p class="subtitle">Max Corveth</p>
+                    <p>I came into revenue operations through an unconventional path. I spent years in web3 marketing—building campaigns for NFT and DeFi projects during the 2020 bull run, then specializing in DeFi copywriting.</p>
+                    <p>What I learned there changed how I think about growth: in crypto, you either figure out sustainable operations fast or you die. There were no corporate playbooks for decentralized finance—we had to build everything from scratch.</p>
+                    <p>Now I apply that scrappy, operational mindset to traditional B2B SaaS. I've been trading actively across crypto, forex, and US equities for years, which gives me a unique perspective on revenue mechanics and financial operations.</p>
+                    <p>I started Corveth to help growth-stage companies build the operational foundation I wish I had when I was scaling teams.</p>
+                    <div class="about-credentials">
+                        <div class="credential">
+                            <svg class="credential-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span>Web3 Marketing Background</span>
+                        </div>
+                        <div class="credential">
+                            <svg class="credential-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span>Active Trader</span>
+                        </div>
+                        <div class="credential">
+                            <svg class="credential-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span>DeFi Copywriting</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="icp" id="icp">
         <div class="container">
             <div class="icp-content">
@@ -184,7 +222,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand"><a href="#" class="nav-logo" style="color:white;"><div class="nav-logo-icon">C</div>Corveth</a><p>The revenue operations partner for growth-stage B2B SaaS companies ready to scale from $5M to $50M.</p></div>
-                <div class="footer-nav"><h4>Quick Links</h4><ul class="footer-links"><li><a href="#services">Services</a></li><li><a href="#why-corveth">Why Corveth</a></li><li><a href="#icp">About</a></li></ul></div>
+                <div class="footer-nav"><h4>Quick Links</h4><ul class="footer-links"><li><a href="#services">Services</a></li><li><a href="#why-corveth">Why Corveth</a></li><li><a href="#about">About</a></li></ul></div>
                 <div class="footer-contact"><h4>Contact</h4><p>hello@corveth.com</p><p><a href="https://www.linkedin.com/in/max-corveth/" target="_blank" style="color:var(--color-accent);">LinkedIn</a></p></div>
             </div>
             <div class="footer-bottom"><p>&copy; 2026 Corveth Consulting. All rights reserved.</p></div>
