@@ -76,8 +76,7 @@ A quick reference for consistent branding.
 
 | Item | Value |
 |------|-------|
-| Website | [your-domain] |
-| Email | hello@corveth.com |
+| Website | corveth.com |
 | LinkedIn | linkedin.com/company/corveth |
 | Calendly | calendly.com/corveth-group/free-consultation |
 
