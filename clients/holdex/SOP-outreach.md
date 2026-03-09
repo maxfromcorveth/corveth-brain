@@ -17,7 +17,7 @@
 4. Copy message from **Column I (First Message)** → paste → send
 5. In sheet: 
    - Add today's date in **Column L (Sent Date)**
-   - Change **Column M (Stage)** to "Reached"
+   - Change **Column M (Stage)** to "Contacted"
 
 ---
 
@@ -25,8 +25,8 @@
 
 | When | Action |
 |------|--------|
-| Day 3-5 | Filter Stage = "Reached" → check Sent Date → if 3+ days passed, copy from **Column J** → send → note date |
-| Day 10 | No response? Copy from **Column K (Breakaway)** → send → change Stage to "Stale" |
+| Day 3-5 | Filter Stage = "Contacted" → check Sent Date → if 3+ days passed, copy from **Column J** → send → change Stage to "Follow-up 1 sent" |
+| Day 10 | No response? Copy from **Column K** → send → change Stage to "Breakaway sent" |
 | Day 14 | Move on to next lead |
 
 ---
@@ -35,9 +35,13 @@
 
 - **Stage meanings:**
   - New = not contacted
-  - Reached = connection request sent
+  - Contacted = connection request sent
+  - Follow-up 1 sent = first follow-up sent
+  - Follow-up 2 sent = second follow-up sent
+  - Breakaway sent = last follow-up sent
   - Replied = they responded
-  - Meeting = call booked
+  - Qualified = good fit, moving forward
+  - Booked = meeting scheduled
   - Stale = no response after breakaway
 
 - **Response Notes (Column N):** Write what they said
