@@ -14,10 +14,10 @@
 1. Pick a lead from the top (highest priority first)
 2. Click LinkedIn URL (column G) → opens their profile
 3. Click "Connect"
-4. Copy message from **Column J (First Message)** → paste → send
+4. Copy message from **Column I (First Message)** → paste → send
 5. In sheet: 
-   - Add today's date in **Column M (Sent Date)**
-   - Change **Column N (Stage)** to "Reached"
+   - Add today's date in **Column L (Sent Date)**
+   - Change **Column M (Stage)** to "Reached"
 
 ---
 
@@ -25,8 +25,8 @@
 
 | When | Action |
 |------|--------|
-| Day 3-5 | Filter Stage = "Reached" → check Sent Date → if 3+ days passed, copy from **Column K** → send → note date |
-| Day 10 | No response? Copy from **Column L (Breakaway)** → send → change Stage to "Stale" |
+| Day 3-5 | Filter Stage = "Reached" → check Sent Date → if 3+ days passed, copy from **Column J** → send → note date |
+| Day 10 | No response? Copy from **Column K (Breakaway)** → send → change Stage to "Stale" |
 | Day 14 | Move on to next lead |
 
 ---
@@ -40,7 +40,7 @@
   - Meeting = call booked
   - Stale = no response after breakaway
 
-- **Response Notes (Column O):** Write what they said
+- **Response Notes (Column N):** Write what they said
 
 ---
 
