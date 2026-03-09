@@ -82,5 +82,3 @@ Hey [Name], one more try — completely understand if you're busy or not the rig
 
 - Target: 2-3 meetings/week
 - Outreach needed: ~100-200/week
-- Expected response: 1-5%
-- Expected meetings from 6 leads: 0-2
