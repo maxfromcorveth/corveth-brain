@@ -279,4 +279,3 @@ git clone https://github.com/BrianRWagner/ai-marketing-claude-code-skills.git ~/
 ---
 
 *System built: March 2026*
-*For: Holdex client acquisition*
