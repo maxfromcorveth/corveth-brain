@@ -54,3 +54,61 @@ Use like:
 ```
 
 Based on: https://github.com/BrianRWagner/ai-marketing-claude-code-skills/tree/main/cold-outreach-sequence
+
+---
+
+## Twitter Thread Generator
+
+Trigger: `/twitter-thread`
+
+Generate a Twitter thread using Blair principle and ICP language.
+
+Use like:
+```
+/twitter-thread [topic] - e.g., "why CRM implementations fail"
+```
+
+The thread will:
+- Lead with pain ("Still Flying Blind?")
+- Use founder language ("CRM is a mess", "two truths, zero alignment")
+- Throw rocks at competitors
+- End with soft CTA
+- Be de-ai-fied (human voice)
+
+---
+
+## LinkedIn Post Generator
+
+Trigger: `/linkedin-post`
+
+Generate a LinkedIn post using Blair principle.
+
+Use like:
+```
+/linkedin-post [topic] - e.g., "forecasting problem for SaaS founders"
+```
+
+The post will:
+- Start with pain story or hook
+- Use ICP language
+- Include engagement CTA (question)
+- Be platform-optimized
+
+---
+
+## Content Campaign Generator
+
+Trigger: `/campaign`
+
+Generate a 7-day content campaign (posts + engagement).
+
+Use like:
+```
+/campaign [goal] - e.g., "drive leads for RevOps consulting"
+```
+
+Generates:
+- 7 LinkedIn posts
+- 5 Twitter threads
+- Engagement replies
+- DM sequence

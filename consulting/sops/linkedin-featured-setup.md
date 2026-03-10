@@ -1,30 +1,28 @@
 # LinkedIn Featured Section Setup
 
-## What to Add (3 items)
+## What to Add
 
-### 1. Anti-Consultant Manifesto (Carousel)
-- 5-slide carousel ready to post
+### 1. Manifesto Carousel PDF
+- Download: [manifesto.pdf - coming soon]
+- OR use the images: https://github.com/maxfromcorveth/corveth-brain/tree/main/consulting/sops/corveth-carousel
 
-### 2. Website Link
+### 2. Calculator Carousel PDF
+- Download: [corveth-calculator-carousel.pdf - coming soon]
+
+### 3. Website Link
 - https://corveth.com
-
-### 3. Lead Magnet (Optional - requires landing page)
-- Calculator - skip for now
 
 ---
 
-## Steps to Add
+## Quick Steps
 
-### Step 1: Post Manifesto Carousel
-1. **Download images:** https://github.com/maxfromcorveth/corveth-brain/tree/main/consulting/sops/corveth-carousel
-2. Post all 5 images as a LinkedIn carousel
-3. Publish
+### To post carousel:
+1. Go to LinkedIn → Start post
+2. Click "Add document" (page icon)
+3. Upload PDF
+4. Add title → Post
 
-### Step 2: Add to Featured
-1. Go to LinkedIn Profile → Featured → Add
-2. Select your manifesto post
-3. Add https://corveth.com as second item
-
-### Order
-1. Manifesto (main)
-2. Website (conversion)
+### To add to Featured:
+1. Profile → Featured → Add
+2. Select your carousel post
+3. Add corveth.com link
