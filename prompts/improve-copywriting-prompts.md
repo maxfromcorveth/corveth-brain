@@ -52,5 +52,5 @@ Incorporate exact phrases from ICP research:
 Update all three files with sharper hooks, Blair voice, and founder language. Keep existing structure.
 
 ## Voice to Match
-Corveth is: "RevOps for founders who hate RevOps consultants"
+Corveth is: "RevOps for founders who hate consultants"
 Tone: Direct, irreverent, throws shade at typical consultants
