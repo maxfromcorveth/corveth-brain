@@ -3,10 +3,10 @@
 ## What to Add
 
 ### 1. Manifesto Carousel PDF
-- Download: https://github.com/maxfromcorveth/corveth-brain/raw/main/consulting/sops/corveth-carousel/corveth-manifesto-carousel---d1100485-d3d5-4f1b-8c14-a9242d6e4efa.pdf
+- Download: https://github.com/maxfromcorveth/corveth-brain/raw/main/consulting/sops/corveth-carousel/corveth-manifesto-carousel.pdf
 
 ### 2. Calculator Carousel PDF
-- Download: https://github.com/maxfromcorveth/corveth-brain/raw/main/consulting/sops/corveth-carousel/corveth-calculator-carousel---88cb8167-76cb-42f1-9c5a-46559b789a0e.pdf
+- Download: https://github.com/maxfromcorveth/corveth-brain/raw/main/consulting/sops/corveth-carousel/corveth-calculator-carousel.pdf
 
 ### 3. Website Link
 - https://corveth.com
