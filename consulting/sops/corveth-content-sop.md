@@ -17,18 +17,9 @@
 
 ## Step 1: Get Content
 
-Ask me to generate content:
+Tell me: "Generate content for this week" (I'll know the topic based on the week)
 
-```
-Generate 3 LinkedIn posts for this week about [topic/theme]
-```
-
-Or specify:
-```
-/linkedin-post [topic]
-```
-
-I'll generate using your ICP voice and Blair principle.
+Or specify: "Generate about [topic]"
 
 ---
 
@@ -51,14 +42,20 @@ That's it. Don't overcomplicate.
 
 ---
 
-## Content Topics (Rotate These)
+## Content Topics (Auto-Rotating)
 
-1. CRM problems ("data graveyard")
-2. Sales/Marketing misalignment ("two truths")
-3. Forecasting issues ("can't forecast for shit")
-4. RevOps myths
-5. Client results (anonymized)
-6. Industry observations
+No thinking needed. Topics rotate automatically:
+
+| Week | Topic | Hook Example |
+|------|-------|--------------|
+| 1 | CRM problems | "Your CRM is a data graveyard" |
+| 2 | Sales/Marketing misalignment | "Two truths, zero alignment" |
+| 3 | Forecasting issues | "Can't forecast for shit" |
+| 4 | RevOps myths | "Myth: We need clean data first" |
+| 5 | Client results | "We helped a company go from X to Y" |
+| 6 | Industry observations | "Something I keep seeing..." |
+
+Then repeat. Topics that get DMs → do more of those.
 
 ---
 
