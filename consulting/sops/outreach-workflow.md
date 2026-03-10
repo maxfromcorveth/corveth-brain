@@ -4,6 +4,12 @@ A complete system for setting up manual LinkedIn outreach for Corveth Consulting
 
 ---
 
+## Google Sheet
+
+**Leads Tracker:** https://docs.google.com/spreadsheets/d/1HvdIku0WS5CtUslklZa4EbQm2HNgu-knE9xCknlchA8
+
+---
+
 ## Overview
 
 | Aspect | Details |
