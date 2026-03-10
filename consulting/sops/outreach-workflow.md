@@ -204,6 +204,36 @@ Track progress in GitHub:
 
 ---
 
+## Tools & Resources
+
+### Skills for Message Creation
+
+- **De-AI-ify:** Remove AI-generated patterns from copy
+  - https://github.com/BrianRWagner/ai-marketing-claude-code-skills/tree/main/de-ai-ify
+- **Cold Outreach Sequence:** Generate personalized outreach messages
+  - https://github.com/BrianRWagner/ai-marketing-claude-code-skills/tree/main/cold-outreach-sequence
+
+### LinkedIn
+- Profile: linkedin.com
+- Search: Use keywords like "CEO" + "SaaS" + "founder"
+
+### Google Sheets
+- Create: sheets.google.com
+- Share with team: Click Share → add emails
+
+### GitHub
+- Repo: github.com/maxfromcorveth/corveth-brain
+- Issues: For tracking progress
+
+### Research Sources
+- Crunchbase (funding data)
+- LinkedIn (founder research)
+- Company websites
+- Press releases
+- Industry newsletters
+
+---
+
 ## Key Lessons
 
 1. **Personalization wins** — Specific facts beat generic templates
