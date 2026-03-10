@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, height=1350">
+    <title>Corveth Manifesto - Slide 4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=JetBrains+Mono:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1350px;
+            background: #0A0A0A;
+            font-family: 'JetBrains Mono', monospace;
+            color: #FFFFFF;
+            padding: 80px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .slide-number {
+            font-size: 24px;
+            color: #333333;
+            text-align: right;
+            margin-bottom: 60px;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h1 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 1.2;
+            letter-spacing: -2px;
+            margin-bottom: 80px;
+        }
+
+        .highlight {
+            color: #CCFF00;
+        }
+
+        .steps {
+            display: flex;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .step {
+            flex: 1;
+            border: 2px solid #333333;
+            padding: 40px;
+            position: relative;
+        }
+
+        .step-number {
+            font-family: 'Inter', sans-serif;
+            font-weight: 900;
+            font-size: 64px;
+            color: #333333;
+            position: absolute;
+            top: -30px;
+            left: 20px;
+            background: #0A0A0A;
+            padding: 0 10px;
+        }
+
+        .step-title {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            margin-top: 20px;
+        }
+
+        .step-desc {
+            font-size: 24px;
+            color: #888888;
+        }
+
+        .arrow {
+            position: absolute;
+            right: -30px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 40px;
+            color: #CCFF00;
+            z-index: 10;
+        }
+
+        .progress-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 8px;
+            background: #CCFF00;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-number">4 / 5</div>
+
+    <div class="content">
+        <h1>Two truths, zero alignment?<br><span class="highlight">We kill the chaos.</span></h1>
+
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-title">AUDIT</div>
+                <div class="step-desc">Fast. Painless. Honest.</div>
+            </div>
+
+            <div class="step" style="border-color: #CCFF00;">
+                <div class="step-number" style="color: #CCFF00;">2</div>
+                <div class="step-title" style="color: #CCFF00;">BUILD</div>
+                <div class="step-desc">Clean systems. Real data.</div>
+                <div class="arrow">→</div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-title">LEAVE</div>
+                <div class="step-desc">You run it. We vanish.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="progress-bar"></div>
+</body>
+</html>

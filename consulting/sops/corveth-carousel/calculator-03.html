@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, height=1350">
+    <title>RevOps Calculator - Slide 3</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=JetBrains+Mono:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1080px;
+            height: 1350px;
+            background: #0A0A0A;
+            font-family: 'JetBrains Mono', monospace;
+            color: #FFFFFF;
+            padding: 80px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .slide-number {
+            font-size: 24px;
+            color: #333333;
+            text-align: right;
+            margin-bottom: 40px;
+        }
+
+        .question-num {
+            font-size: 24px;
+            color: #CCFF00;
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 1.2;
+            letter-spacing: -2px;
+            margin-bottom: 60px;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            flex: 1;
+        }
+
+        .option {
+            display: flex;
+            align-items: center;
+            padding: 32px 40px;
+            border: 2px solid #333333;
+            font-size: 28px;
+            transition: all 0.2s;
+        }
+
+        .option-bad {
+            border-color: #FF4444;
+            background: rgba(255, 68, 68, 0.1);
+            color: #FF4444;
+        }
+
+        .option-good {
+            border-color: #333333;
+            color: #666666;
+        }
+
+        .option-icon {
+            width: 32px;
+            height: 32px;
+            margin-right: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .progress-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 8px;
+            background: #CCFF00;
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-number">3 / 5</div>
+
+    <div class="question-num">QUESTION 2</div>
+
+    <h1>Ask Sales & Marketing: what is a "qualified lead"?</h1>
+
+    <div class="options">
+        <div class="option option-good">
+            <div class="option-icon">☐</div>
+            Same answer. Always.
+        </div>
+
+        <div class="option option-bad">
+            <div class="option-icon">☒</div>
+            Awkward silence
+        </div>
+
+        <div class="option option-bad">
+            <div class="option-icon">☒</div>
+            Fist fight
+        </div>
+
+        <div class="option option-bad">
+            <div class="option-icon">☒</div>
+            Two completely different answers
+        </div>
+    </div>
+
+    <div class="progress-bar"></div>
+</body>
+</html>
