@@ -24,3 +24,33 @@ The content will be rewritten to:
 - Differentiate from competitors
 - Be direct and human
 - NOT assume they know the problem - meet them where they are
+
+---
+
+## De-AI-ify
+
+Trigger: `/deaify`
+
+Remove AI-generated patterns from any copy. Makes it sound human, not robotic.
+
+Use like:
+```
+/deaify [paste AI-generated content here]
+```
+
+Based on: https://github.com/BrianRWagner/ai-marketing-claude-code-skills/tree/main/de-ai-ify
+
+---
+
+## Cold Outreach Sequence
+
+Trigger: `/coldsequence`
+
+Generate personalized cold outreach messages based on lead info and your ICP voice.
+
+Use like:
+```
+/coldsequence [lead name], [company], [recent news/funding], [their role]
+```
+
+Based on: https://github.com/BrianRWagner/ai-marketing-claude-code-skills/tree/main/cold-outreach-sequence

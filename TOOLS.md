@@ -1,40 +1,19 @@
-# TOOLS.md - Local Notes
+# AI Agency Agents Repository
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+Link: https://github.com/msitarzewski/agency-agents
 
-## What Goes Here
-
-Things like:
-
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
-
-## Examples
-
-```markdown
-### Cameras
-
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
-
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
-
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+**Marketing Agents (relevant for Corveth):**
+- `marketing-content-creator.md` - Create content
+- `marketing-growth-hacker.md` - Growth experiments
+- `marketing-twitter-engager.md` - Twitter engagement
+- `marketing-social-media-strategist.md` - Social strategy
+- `marketing-seo-specialist.md` - SEO
+- `marketing-carousel-growth-engine.md` - Carousel content
 
 ---
 
-Add whatever helps you do your job. This is your cheat sheet.
+# Commands (see SKILLS.md)
+
+- `/blair` - Apply ICP voice principles
+- `/deaify` - Remove AI patterns
+- `/coldsequence` - Generate outreach messages
