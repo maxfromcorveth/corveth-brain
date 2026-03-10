@@ -4,6 +4,14 @@ A complete system for setting up manual LinkedIn outreach for Corveth Consulting
 
 ---
 
+## Daily SOP (What you open each day)
+
+**Use this for daily execution:** https://github.com/maxfromcorveth/corveth-brain/blob/master/clients/holdex/SOP-outreach.md
+
+This is the actual step-by-step workflow — open it, follow the steps, done.
+
+---
+
 ## Google Sheet
 
 **Leads Tracker:** https://docs.google.com/spreadsheets/d/1HvdIku0WS5CtUslklZa4EbQm2HNgu-knE9xCknlchA8
