@@ -231,6 +231,33 @@ ETA: [Date] | Deliverable: [What]
 
 ---
 
+## Skills & Tools Used
+
+This system uses Claude/OpenClaw skills for automation:
+
+### 1. De-AI-ify
+Removes AI-generated patterns from messages to sound more human.
+
+- **Repo:** https://github.com/BrianRWagner/ai-marketing-claude-code-skills/tree/main/de-ai-ify
+- **Skill:** `/de-ai-ify` - Run on any text to remove jargon, hedge words, corporate buzzwords
+
+### 2. Cold Outreach Sequence
+Generates personalized outreach sequences based on research.
+
+- **Repo:** https://github.com/BrianRWagner/ai-marketing-claude-code-skills/tree/main/cold-outreach-sequence
+- **Skill:** Uses research + personalization tiers to write messages
+
+### Installation
+
+```bash
+# Clone the skills repo
+git clone https://github.com/BrianRWagner/ai-marketing-claude-code-skills.git ~/.openclaw/skills/
+
+# Skills will be available automatically
+```
+
+---
+
 ## Key Lessons
 
 1. **Personalization wins** — Specific facts beat generic templates
