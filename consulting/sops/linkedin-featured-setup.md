@@ -1,12 +1,15 @@
 # LinkedIn Featured Section Setup
 
-## What to Add (2 items)
+## What to Add (3 items)
 
 ### 1. Anti-Consultant Manifesto (Carousel)
 - 5-slide carousel ready to post
 
 ### 2. Website Link
 - https://corveth.com
+
+### 3. Lead Magnet (Optional - requires landing page)
+- Calculator - skip for now
 
 ---
 
