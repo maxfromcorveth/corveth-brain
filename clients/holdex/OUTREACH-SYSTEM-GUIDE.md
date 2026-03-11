@@ -20,7 +20,7 @@ A complete system for setting up manual LinkedIn outreach for B2B clients. This 
 
 1. Google account (for Sheets)
 2. GitHub account (for documentation)
-3. LinkedIn Premium (optional but recommended for InMail)
+3. LinkedIn Premium (optional but recommended)
 4. 15-30 min/day for execution
 
 ---
