@@ -1,0 +1,202 @@
+{
+  "business": {
+    "name": "Corveth Consulting",
+    "valueProposition": "Implementation-focused RevOps consulting that builds revenue operations which actually work",
+    "tagline": "We Build Revenue Operations That Actually Work. Not Another Audit.",
+    "uniqueAngle": "Stays until it's working - doesn't just hand over a PDF and vanish",
+    "targetProspect": "Growth-stage tech companies selling complex products ($1M-$50M ARR)",
+    "positioning": "RevOps for tech companies that sell complex products"
+  },
+  "companyIcp": {
+    "industry": {
+      "primary": "Tech companies selling complex products",
+      "subIndustries": ["B2B SaaS", "Crypto/Blockchain", "Fintech", "AI/ML", "Cybersecurity", "Data Infrastructure", "DevTools"]
+    },
+    "revenue": {
+      "min": 1000000,
+      "max": 50000000,
+      "ideal": "$1M-$50M ARR",
+      "note": "Growth-stage, post-PMF"
+    },
+    "stage": {
+      "primary": "Growth-stage",
+      "signals": ["Seed", "Series A", "Series B", "Scaling revenue", "Hiring aggressively", "Expanding GTM teams"]
+    },
+    "location": {
+      "primary": "Global/Remote",
+      "focus": "USA, UK, Singapore",
+      "note": "No geographic restriction"
+    },
+    "companyType": ["VC-backed", "Bootstrapped profitable", "PE-owned"],
+    "employeeCount": {
+      "min": 11,
+      "max": 100,
+      "ideal": "11-100 employees"
+    }
+  },
+  "buyerIcp": {
+    "titles": {
+      "primary": ["CEO", "Founder", "COO"],
+      "secondary": ["VP of Sales", "VP of Revenue", "VP of Marketing"],
+      "tertiary": ["Head of Revenue Operations", "Director of Operations", "CRO"]
+    },
+    "responsibilities": [
+      "Owning revenue growth and forecast accuracy",
+      "Managing sales and marketing teams",
+      "Building operational infrastructure",
+      "Reporting to board on predictable revenue"
+    ],
+    "painPoints": {
+      "critical": [
+        "CRM is a data graveyard - leads go in but never come out",
+        "Can't forecast revenue accurately - every forecast is a guess",
+        "Sales and marketing misalignment - leads fall through the cracks"
+      ],
+      "moderate": [
+        "Revenue leakage due to operational chaos",
+        "Systems don't work together",
+        "Team stopped updating CRM because it's just more admin work"
+      ],
+      "secondary": [
+        "Need predictable revenue for board meetings",
+        "Want to scale without adding operational chaos",
+        "Frustrated with consultants who just hand over PDFs"
+      ]
+    },
+    "motivations": {
+      "primary": [
+        "Scale revenue without operational chaos",
+        "Build predictable revenue forecasting",
+        "Turn CRM into a revenue-generating asset"
+      ],
+      "secondary": [
+        "Stop revenue leakage",
+        "Get sales and marketing aligned",
+        "Have processes that turn leads into revenue consistently"
+      ]
+    },
+    "triggers": [
+      "Board demanding predictable revenue",
+      "Series A/B funding round",
+      "Failed CRM implementation",
+      "High sales/marketing turnover",
+      "Revenue plateau"
+    ],
+    "objectors": [
+      "We've tried CRM optimization before",
+      "We don't have time for another audit",
+      "Our team won't use the system"
+    ]
+  },
+  "messaging": {
+    "headlines": [
+      "We Build Revenue Operations That Actually Work. Not Another Audit.",
+      "RevOps for Tech Companies That Sell Complex Products",
+      "Stop Leaking Revenue to Operational Chaos"
+    ],
+    "hooks": {
+      "problem": [
+        "Your CRM is a data graveyard - you invested in a powerful system but leads go in and never come out",
+        "Sales says Marketing delivers garbage leads. Marketing says Sales can't close. Nobody owns the handoff.",
+        "Your board wants predictable revenue. But you can't even predict next quarter."
+      ],
+      "solution": [
+        "We stay until it's working - most consultants hand you a PDF and vanish",
+        "We build the infrastructure that makes your team more productive",
+        "We create the processes that turn leads into revenue - consistently"
+      ]
+    },
+    "ctas": {
+      "primary": "Book Your Strategy Call",
+      "secondary": "Let's talk about your revenue operations challenges",
+      "link": "corveth.com"
+    },
+    "tone": {
+      "voice": "Practical, direct, no-nonsense",
+      "principles": [
+        "Focus on outcomes, not features",
+        "Say what you mean, no jargon",
+        "Confident but not arrogant"
+      ],
+      "avoid": [
+        "Corporate buzzwords",
+        "Over-promising",
+        "Vague claims"
+      ]
+    }
+  },
+  "scoring": {
+    "hot": {
+      "minScore": 75,
+      "criteria": [
+        "Tech company selling complex products",
+        "ARR $1M-$50M",
+        "Growth-stage (Seed-Series B)",
+        "Has explicit forecasting/CRM pain",
+        "Active hiring for sales/marketing",
+        "CEO, founder, or VP-level buyer"
+      ]
+    },
+    "warm": {
+      "minScore": 50,
+      "maxScore": 74,
+      "criteria": [
+        "Tech company",
+        "ARR $1M-$50M",
+        "Growth-stage",
+        "Has mentioned operational challenges",
+        "Looking at RevOps solutions",
+        "VP-level buyer"
+      ]
+    },
+    "nurture": {
+      "maxScore": 49,
+      "criteria": [
+        "Outside revenue range (under $1M or over $50M)",
+        "Not tech company",
+        "Bootstrap only (no growth signals)",
+        "Enterprise-focused (not growth-stage)",
+        "No obvious pain points",
+        "Cold prospect"
+      ]
+    },
+    "scoringWeights": {
+      "industry": 20,
+      "revenue": 20,
+      "stage": 15,
+      "buyerTitle": 15,
+      "painPoints": 20,
+      "triggers": 10
+    }
+  },
+  "services": [
+    {
+      "name": "Revenue Operations Assessment & Roadmap",
+      "description": "Comprehensive evaluation with prioritized implementation roadmap. We diagnose your entire RevOps ecosystem and create a clear path forward.",
+      "tier": "Foundation"
+    },
+    {
+      "name": "CRM Optimization & Data Architecture",
+      "description": "Transform CRM from data graveyard to revenue-generating asset. We build the infrastructure that makes your team more productive.",
+      "tier": "Growth"
+    },
+    {
+      "name": "Sales & Marketing Alignment",
+      "description": "Create seamless handoffs between marketing and sales. We build the processes that turn leads into revenue - consistently.",
+      "tier": "Transformation"
+    }
+  ],
+  "competitiveDifferentiators": [
+    "Implementation-focused (not just consulting)",
+    "Stays until it's working",
+    "Results within 90 days",
+    "Practical, no-nonsense approach",
+    "Works with tech companies selling complex products (not just SaaS)"
+  ],
+  "sources": {
+    "website": "https://corveth.com",
+    "brandSheet": "/root/.openclaw-seldon/workspace/consulting/brand-sheet.md",
+    "analyzedDate": "2026-03-12",
+    "note": "Updated with new positioning: RevOps for tech companies that sell complex products"
+  }
+}
