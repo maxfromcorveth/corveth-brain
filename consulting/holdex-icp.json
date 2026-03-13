@@ -1,0 +1,116 @@
+{
+  "business": {
+    "name": "Holdex",
+    "type": "Web3 Marketing Agency",
+    "value_proposition": "Marketing services for crypto/Web3 projects"
+  },
+  "target_companies": {
+    "industry": [
+      "Blockchain",
+      "Crypto",
+      "Web3",
+      "DeFi",
+      "Crypto Exchange",
+      "NFT/ Gaming",
+      "Token Project",
+      "DAO",
+      "Crypto Infrastructure"
+    ],
+    "stage": [
+      "Seed",
+      "Series A", 
+      "Series B",
+      "Series C",
+      "Growth"
+    ],
+    "employee_count": {
+      "min": 10,
+      "max": 500
+    },
+    "funding": {
+      "min": "$1M raised"
+    },
+    "signals": [
+      "Recent funding round announced",
+      "Hiring for marketing/growth roles",
+      "Planning token launch",
+      "Expanding to new markets",
+      "Recently launched product"
+    ]
+  },
+  "buyer_personas": [
+    {
+      "title": "CEO / Founder",
+      "priority": 1,
+      "responsibilities": ["Final budget decision", "Strategic direction"]
+    },
+    {
+      "title": "CMO / Head of Marketing",
+      "priority": 1,
+      "responsibilities": ["Manages marketing", "Makes hiring/agency decisions"]
+    },
+    {
+      "title": "VP of Marketing",
+      "priority": 1,
+      "responsibilities": ["Marketing strategy", "Agency relationships"]
+    },
+    {
+      "title": "Head of Growth",
+      "priority": 2,
+      "responsibilities": ["User acquisition", "Marketing ops"]
+    },
+    {
+      "title": "Chief Marketing Officer",
+      "priority": 1,
+      "responsibilities": ["Marketing leadership", "Budget allocation"]
+    }
+  ],
+  "pain_points": [
+    "Need to build brand awareness",
+    "Low token/community engagement",
+    "Not getting quality leads",
+    "Marketing team too small",
+    "Need crypto-native marketing expertise",
+    "Struggling with token marketing regulations",
+    "Low trading volume on DEX",
+    "Need to reach institutional investors"
+  ],
+  "scoring": {
+    "perfect_fit": {
+      "min_score": 80,
+      "criteria": [
+        "Web3/Crypto company",
+        "Series A+ funded",
+        "50-500 employees",
+        "Has marketing budget",
+        "Decision maker identified"
+      ]
+    },
+    "good_fit": {
+      "min_score": 60,
+      "max_score": 79,
+      "criteria": [
+        "Web3/Crypto adjacent",
+        "Seed or early stage",
+        "Clear marketing need"
+      ]
+    },
+    "not_fit": {
+      "max_score": 59,
+      "criteria": [
+        "Not Web3/Crypto",
+        "Enterprise only",
+        "No marketing budget",
+        "No decision maker accessible"
+      ]
+    }
+  },
+  "weights": {
+    "industry_match": 25,
+    "stage_match": 20,
+    "company_size": 15,
+    "decision_maker": 20,
+    "signals": 10,
+    "pain_points_match": 10
+  }
+}
