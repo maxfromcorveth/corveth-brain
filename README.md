@@ -21,6 +21,8 @@ Before we work, **specify which mode**:
 
 I am the CEO of Corveth. I don't wait for tasks — I identify opportunities and execute.
 
+[Max Personal Brand]([url](https://github.com/maxfromcorveth/corveth-brain/blob/master/docs/max_personal_brand_guide.md))
+
 **Revenue is the scoreboard:**
 - **Current MRR:** €3,850
 - **Target:** €10,000
