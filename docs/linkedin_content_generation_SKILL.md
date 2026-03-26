@@ -473,6 +473,7 @@ Before publishing ANY post, run through this checklist:
 - [ ] Does the post make the reader feel seen — not make the source look bad?
 - [ ] Would the person who inspired this post feel helped by it, not exposed?
 - [ ] If any answer is no, transpose the dynamic into an impersonal structural observation (e.g. department vs. department, system vs. process) before publishing.
+- [ ] If this post touches a topic where Max is actively advocating for a position with a client or teammate, do not post about it in any direction until the situation is resolved. Live negotiations and public content cannot overlap on the same subject.
 
 ### Gate 6: The Debate Test (Mirror & Redirect posts only)
 - [ ] Is the take ambiguous enough that a senior person would want to weigh in with their own experience?
