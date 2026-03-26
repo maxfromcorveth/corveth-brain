@@ -685,6 +685,91 @@ Each angle is tagged with: suggested format, funnel stage, and persuasion driver
 5. Add new angles as Max encounters new ICP patterns, personal experiences, or market observations.
 6. Check that the week's posts don't all use the same protagonist. Rotate between founder, VP Sales, Head of Marketing, and CRO across the week. If 2+ posts feature the same role, swap one.
 
+## Part 15: Hook Framework (sourced from Hormozi $100M Hooks Playbook)
+
+The first line of every LinkedIn post is the hook. It determines whether anyone reads the rest. Everything else — format, persuasion driver, funnel stage — is irrelevant if the hook doesn't stop the scroll.
+
+---
+
+### What a Hook Does
+
+A hook has two jobs:
+1. **Call out** — makes the right person say "this is for me"
+2. **Condition for value** — implies they'll get something worth reading if they continue
+
+The hook must make the *reader* feel important, not describe Max or his work. If the hook is about Max, rewrite it until it's about them.
+
+---
+
+### Hook Types (Ranked by Hormozi's Top 121 Performance Data)
+
+| Type | % of Top 121 | How It Works | Max's LinkedIn Example |
+|------|-------------|--------------|----------------------|
+| **Statements** | 47.9% | Bold claim or observation — no setup, just the punch | "the worst thing you can do when you're losing is try harder." |
+| **Commands** | 21.5% | Direct instruction — tells the reader to do something | "stop hiring SDRs until you can answer this one question." |
+| **Questions** | 9.9% | Yes-questions or open questions that trigger self-reflection | "ever been in a situation where the harder you push, the worse it gets?" |
+| **Exclamations** | 9.1% | Expresses strong emotion — surprise, frustration, disbelief | "your CRM has 10,000 contacts and zero decisions." |
+| **Lists/Steps** | 5.8% | Promises structured value — use sparingly, can read as listicle | avoid for Max's voice unless genuinely structured |
+| **Conditionals** | 2.5% | If [you are this person] + [do this thing] = [you get this value] | "if your pipeline review feels like group storytelling, the problem isn't your team." |
+| **Stories/Narratives** | 3.3% | Opens with a scene — drops the reader into a moment | "founder showed me their outbound setup last month." |
+
+**Default priority for Max:** Statements > Questions > Conditionals > Stories > Commands. Avoid Lists/Steps (conflicts with no-listicle rule). Use Exclamations sparingly — must feel raw, not performative.
+
+---
+
+### Hook Creation Process: 70-20-10 Rule
+
+**70% — Proven winners.** Reuse hooks that already performed well on Max's own LinkedIn. Track every post's first line alongside its impressions, reactions, and comments. When generating new content, review the top performers first and model new hooks after them.
+
+**20% — Winner-adjacent.** Take hook structures that worked in other niches or for other creators and adapt the formula to Max's ICP. Same mechanic, different subject matter.
+
+**10% — Experiments.** Try completely new hook formats or angles. If they win, they move into the 70%. If they lose, document and don't repeat.
+
+---
+
+### Hook Quality Rules (Adapted for Max's Voice)
+
+1. **The hook must be about the reader, not about Max.** If the first line describes Max's experience or credentials, rewrite it so the reader sees themselves.
+2. **Vague > specific for the first line.** The hook should be broad enough to stop multiple types of scrollers but specific enough that the ICP feels targeted. Specificity comes in line 2-3, not line 1.
+3. **No format giveaway in the hook.** Don't reveal the topic category (BJJ, sales, Thailand) in the first line if it would cause non-obvious audiences to scroll past. Let the hook create curiosity, then reveal the context.
+4. **One hook per post.** Don't stack multiple hooks. One strong opening, then deliver.
+5. **Test multiple hooks for the same post body.** When a post body is strong, write 2-3 alternate first lines and rotate them across weeks to see which structure performs best for Max's audience.
+
+---
+
+### Hook Testing Tracker
+
+Maintain a running log. Minimum fields:
+
+| Date | First Line (Hook) | Hook Type | Impressions | Reactions | Comments | Post Format |
+|------|-------------------|-----------|-------------|-----------|----------|-------------|
+| | | | | | | |
+
+Review the tracker monthly. Apply 70-20-10 to the next month's hooks based on what the data shows.
+
+---
+
+### Hooks That Violate Max's Voice (Never Use)
+
+- "excited to share..." / "thrilled to announce..." (corporate cringe)
+- "here are 7 ways to..." (listicle — violates skill rules)
+- "I'm going to show you..." (makes it about Max, not the reader)
+- "agree?" / "thoughts?" / "comment below" (engagement bait)
+- Any hook that sounds like it was written by a LinkedIn growth coach
+
+---
+
+### Integration with Existing Formats
+
+| Post Format | Best Hook Types | Why |
+|-------------|----------------|-----|
+| **Mirror & Redirect** | Direct quote (unique — not in Hormozi's categories, native to Max's skill) | The quote IS the hook — reader recognizes their own words |
+| **Short Take** | Statements, Questions | Punch-first energy matches the format |
+| **Story Post** | Stories/Narratives, Conditionals | Drops reader into the scene immediately |
+| **Contrarian Take** | Statements, Exclamations | Bold claim creates tension |
+| **Personal Crossover** | Questions, Conditionals, vague Statements | Keeps the topic hidden so business + personal audiences both stop |
+| **Proof Post** | Statements, Stories | Lead with the before-state or the result, not Max's role |
+
 ---
 
 **Remember:** Great content doesn't ask for the sale. It makes the buyer realize they need to buy — and that there's only one person to buy from.
