@@ -683,6 +683,7 @@ Each angle is tagged with: suggested format, funnel stage, and persuasion driver
 3. If Max provides fresh input from the week, use it — but run it through Gate 5 (Source Test) first. If it fails, fall back to the bank.
 4. Mark used angles with the date posted so topics don't repeat too soon.
 5. Add new angles as Max encounters new ICP patterns, personal experiences, or market observations.
+6. Check that the week's posts don't all use the same protagonist. Rotate between founder, VP Sales, Head of Marketing, and CRO across the week. If 2+ posts feature the same role, swap one.
 
 ---
 
