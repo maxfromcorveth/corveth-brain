@@ -621,4 +621,69 @@ This section tracks what's working based on real posting data. Update as new pat
 
 ---
 
+## Part 14: Evergreen Topic Bank
+
+Pre-approved topic angles that are always safe to post about. Built by crossing ICP pain points (Part 4) with persuasion drivers (Part 5). None are tied to any specific engagement. When generating weekly content, pick from this bank unless Max provides fresh input.
+
+Each angle is tagged with: suggested format, funnel stage, and persuasion driver.
+
+---
+
+### Revenue Ops / Sales System (Pillar 1 — 60%)
+
+| # | Topic Angle | Format | Funnel | Driver |
+|---|-----------|--------|--------|--------|
+| 1 | Switching CRMs every 18 months and getting the same complaints each time — the tool was never the problem | Contrarian | Mid | Throw rocks + Confirm suspicions |
+| 2 | The founder who can't tell you which 10 deals matter this week out of 400 in the pipeline | Short take | Bottom | Confirm suspicions |
+| 3 | Buying a sales tool, configuring it for 3 months, using it for 20 contacts — procrastination disguised as building | Contrarian | Mid | Justify failures |
+| 4 | Two teams (marketing + sales) blaming each other because there's no shared definition of a qualified lead | Short take | Bottom | Confirm suspicions + Allay fears |
+| 5 | The startup that spent $15k/month on an agency and got a dashboard full of vanity metrics | Story | Bottom | Throw rocks |
+| 6 | Forecasting "maybe $200k" because there's no pipeline stages, no scoring, no close dates | Proof | Bottom | Encourage dreams |
+| 7 | 10,000 contacts in the CRM and nobody can tell you which 50 are worth calling | Short take | Bottom | Confirm suspicions |
+| 8 | Sending 2,000 cold emails a month with an ICP definition of "anyone in fintech" | Story | Bottom | Justify failures |
+| 9 | The founder who thinks "revenue operations" means buying HubSpot | Contrarian | Mid | Confirm suspicions |
+| 10 | Sales reps building their own system in spreadsheets and their head — leaves with them when they quit | Short take | Bottom | Allay fears |
+| 11 | Three SDRs hired before there's a defined ICP, a tested sequence, or a working CRM | Short take | Bottom | Justify failures |
+| 12 | Confusing a full calendar with a healthy pipeline — 20 calls a week, 5% close rate | Contrarian | Mid | Confirm suspicions |
+| 13 | The difference between a $200k quarter and a $400k quarter wasn't more leads — it was knowing which leads mattered | Short take | Bottom | Encourage dreams |
+| 14 | Every CRM vendor says their tool is the answer — none of them mention that the tool is 10% of the problem | Short take | Bottom | Throw rocks |
+| 15 | The consulting model of "deliver audit, create confusion, sell implementation" vs. "build it, teach it, leave" | Contrarian | Bottom | Throw rocks |
+| 16 | A spreadsheet and discipline beats a $50k HubSpot setup when you have fewer than 50 active conversations | Contrarian | Mid | Justify failures |
+| 17 | Lead scoring that nobody set up, follow-up triggers that don't exist, handoff rules that were never written | Short take | Bottom | Confirm suspicions |
+| 18 | The founder who says "we don't have a sales problem" but missed forecast by 40% three quarters in a row | Story | Bottom | Confirm suspicions |
+| 19 | Pipeline reviews where nobody knows what stage a deal is in because stages were never defined | Short take | Bottom | Allay fears |
+| 20 | Same list, same team, same tool — different result because the process changed | Proof | Bottom | Encourage dreams + Justify failures |
+
+### Founder Life (Pillar 2 — 25%)
+
+| # | Topic Angle | Format | Funnel | Driver |
+|---|-----------|--------|--------|--------|
+| 21 | Switching from muay thai to BJJ — being a beginner again when you're used to being competent | Crossover | — | Justify failures (indirect) |
+| 22 | Measuring BJJ progress against others vs. against yourself last week — ego vs. process | Crossover | — | Encourage dreams (indirect) |
+| 23 | Building a business from Thailand — what "work-life balance" actually looks like when you work for yourself | Crossover | — | Create preference |
+| 24 | The crypto bear market killing 90% of the companies you wrote for — clarity beats volume | Crossover | — | Justify failures |
+| 25 | Going from freelance copywriter to building a consultancy — the skill that transferred and the one that didn't | Crossover | — | Justify failures + Encourage dreams |
+
+### Personal / Lifestyle (Pillar 3 — 15%)
+
+| # | Topic Angle | Format | Funnel | Driver |
+|---|-----------|--------|--------|--------|
+| 26 | Laptop at a Thai cafe — "this is where your CRM architecture gets designed" | Photo caption | — | Create preference |
+| 27 | Post-BJJ session reflection — something small learned on the mat | Photo caption | — | Create preference |
+| 28 | Southeast Asia pace vs. startup pace — they're not opposites | Crossover | — | Create preference |
+| 29 | The moment you realize being a beginner is more useful than being an expert | Crossover | — | Justify failures (indirect) |
+| 30 | Training BJJ in Thailand with people from 10 different countries — the gym as a model for how teams should work | Crossover | — | Create preference |
+
+---
+
+### How to Use This Bank
+
+1. When generating weekly content, scan the bank for angles not used in the last 4 weeks.
+2. Pick angles that match the weekly calendar slots (anchor M&R on Tuesday, credibility mid-week, preference end of week).
+3. If Max provides fresh input from the week, use it — but run it through Gate 5 (Source Test) first. If it fails, fall back to the bank.
+4. Mark used angles with the date posted so topics don't repeat too soon.
+5. Add new angles as Max encounters new ICP patterns, personal experiences, or market observations.
+
+---
+
 **Remember:** Great content doesn't ask for the sale. It makes the buyer realize they need to buy — and that there's only one person to buy from.
