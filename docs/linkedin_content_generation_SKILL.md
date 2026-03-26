@@ -468,7 +468,13 @@ Before publishing ANY post, run through this checklist:
 - [ ] Would someone screenshot this and send it to their co-founder with "this is literally us"?
 - [ ] If not, rewrite until they would.
 
-### Gate 5: The Debate Test (Mirror & Redirect posts only)
+ ### Gate 5: The Source Test
+- [ ] If this post draws from a real interaction, is the real person completely unrecognizable?
+- [ ] Does the post make the reader feel seen — not make the source look bad?
+- [ ] Would the person who inspired this post feel helped by it, not exposed?
+- [ ] If any answer is no, transpose the dynamic into an impersonal structural observation (e.g. department vs. department, system vs. process) before publishing.
+
+### Gate 6: The Debate Test (Mirror & Redirect posts only)
 - [ ] Is the take ambiguous enough that a senior person would want to weigh in with their own experience?
 - [ ] Could someone partially disagree and still engage constructively?
 - [ ] If the take is too obviously correct, add nuance or pick a more debatable angle.
