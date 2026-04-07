@@ -88,7 +88,56 @@ Every post should activate at least one of these. The best posts activate 2-3:
 
 -----
 
-## Part 3: The Buyer Journey
+## Part 3: Research Layer
+
+Before writing anything, know what your ICP is saying RIGHT NOW. Posts built on assumptions underperform. Posts built on real language from real founders stop the scroll.
+
+### Weekly Research Routine (15-20 minutes, before writing the week’s batch)
+
+**Source 1: Reddit (r/sales, r/startups, r/SaaS)**
+
+- Search for: “outbound,” “pipeline,” “CRM,” “sales hire,” “lead gen,” “cold email”
+- Sort by: new or top (last 7 days)
+- Capture: exact phrases founders use to describe their pain. These become hooks.
+- Example find: “we’ve burned through 3 SDRs and still can’t get consistent pipeline” → Mirror & Redirect post.
+
+**Source 2: LinkedIn comments and posts from ICP**
+
+- Browse posts from founders, CTOs, and VPs Sales in your network
+- Look for: complaints, questions, debates, frustrations
+- Capture: the specific language they use — not your rewrite of it
+- Example find: a founder commenting “honestly our CRM is just a graveyard at this point” → direct hook material
+
+**Source 3: X/Twitter**
+
+- Search for: “sales process,” “hiring SDR,” “outbound is dead,” “pipeline problem”
+- Look for: hot takes getting engagement, debates between founders and sales leaders
+- Capture: contrarian angles you can respond to from experience
+
+**Source 4: Client/lead conversations**
+
+- Review DM conversations, Telegram threads, call notes from the past week
+- Capture: exact questions prospects asked, objections they raised, language they used
+- This is the highest-signal source — real people describing real problems to you directly
+
+### How to Use What You Find
+
+1. **Hooks:** Use exact ICP language as Mirror & Redirect openers or story post hooks
+2. **Angles:** If a topic is generating debate on Reddit/X, write your take from experience
+3. **Proof posts:** If a prospect described a problem you solved, anonymize it and write the case study
+4. **Framework posts:** If you see the same question asked 3+ times, teach the answer
+
+### Storage
+
+Keep a running note (phone or doc) called “ICP voice capture.” When you see a phrase, complaint, or question from a founder that resonates — paste it in. When it’s time to write, scan the list first. Start from their words, not yours.
+
+### Rule
+
+If you haven’t done the research scan this week, don’t write the batch. Stale angles = low impressions. Fresh ICP language = better hooks.
+
+-----
+
+## Part 4: The Buyer Journey
 
 Every piece of content maps to a stage. Know which stage you’re writing for:
 
@@ -114,7 +163,7 @@ Every piece of content maps to a stage. Know which stage you’re writing for:
 
 -----
 
-## Part 4: Post Formats
+## Part 5: Post Formats
 
 ### Format 1: Mirror & Redirect (PRIMARY — use 1x/week max)
 
@@ -286,7 +335,7 @@ The bouquet = the collection of associations people have with “Max Gandolfo.�
 
 -----
 
-## Part 5: Content Calendar
+## Part 6: Content Calendar
 
 ### Weekly Mix (5 posts/week)
 
@@ -319,7 +368,7 @@ Industry / Anti-patterns: agency model failures, consultant PDF-and-ghost, prema
 
 -----
 
-## Part 6: CTA Strategy
+## Part 7: CTA Strategy
 
 ### Rules by Post Type
 
@@ -352,7 +401,7 @@ When someone DMs after a CTA:
 
 -----
 
-## Part 7: Quality Gates
+## Part 8: Quality Gates
 
 Every post must pass ALL gates before publishing. **Carlo is Gate 1 — the foundation. If a post fails Gate 1, no other gate matters. Rewrite or kill it.**
 
@@ -384,7 +433,7 @@ Push for Level 2+ whenever possible. Your top post (3,982 impressions) hit Level
 
 -----
 
-## Part 8: Proof Capture System
+## Part 9: Proof Capture System
 
 You can’t write proof posts if you don’t capture proof. Build the habit:
 
@@ -417,7 +466,7 @@ Tag everything in a proof folder. When it’s time to write a case study post, s
 
 -----
 
-## Part 9: Content as Lead Nurture
+## Part 10: Content as Lead Nurture
 
 Your LinkedIn feed IS your nurture sequence. The 4 pillars of lead nurture (adapted for content):
 
@@ -450,7 +499,7 @@ Same thesis, different format, different angle. This is not repetition — it’
 
 -----
 
-## Part 10: Hook Rules
+## Part 11: Hook Rules
 
 ### Hook Quality Standards
 
@@ -486,7 +535,7 @@ Same thesis, different format, different angle. This is not repetition — it’
 
 -----
 
-## Part 11: What NOT To Post
+## Part 12: What NOT To Post
 
 - Anything about live negotiations or current client situations that could identify them
 - Anything that conflicts with Orthodox Christian values — no manipulation, no deception, no content that tears others down for sport
@@ -500,7 +549,7 @@ Same thesis, different format, different angle. This is not repetition — it’
 
 -----
 
-## Part 12: Performance Tracking
+## Part 13: Performance Tracking
 
 ### Weekly Review
 
@@ -529,16 +578,17 @@ Track for every post:
 
 ## Quick Reference: Content Generation Process
 
-1. **Run Gate 1 (Carlo Test) first.** Does this post serve the reader more than it serves me? If no — rewrite or kill before going further.
-2. Check the angle rotation log. What hasn’t been covered in 2 weeks?
-3. Pick a format from the weekly calendar.
-4. If it’s a proof post → go to proof folder first. Start from evidence, not thesis.
-5. Write the post. Under 150 words (200 for stories).
-6. Run through all remaining quality gates (2-10).
-7. If it’s a case study → add soft CTA.
-8. Post. Engage with every comment within minutes.
-9. Log the post in the tracking sheet.
-10. If quality comments appear from ICP-matching people → screenshot for future proof.
+1. **Run the research scan first.** Check Reddit, LinkedIn, X, and client conversations for fresh ICP language. If you haven’t scanned this week, don’t write.
+2. **Run Gate 1 (Carlo Test).** Does this post serve the reader more than it serves me? If no — rewrite or kill before going further.
+3. Check the angle rotation log. What hasn’t been covered in 2 weeks?
+4. Pick a format from the weekly calendar.
+5. If it’s a proof post → go to proof folder first. Start from evidence, not thesis.
+6. Write the post using fresh ICP language from the research scan. Under 150 words (200 for stories).
+7. Run through all remaining quality gates (2-10).
+8. If it’s a case study → add soft CTA.
+9. Post. Engage with every comment within minutes.
+10. Log the post in the tracking sheet.
+11. If quality comments appear from ICP-matching people → screenshot for future proof.
 
 -----
 
