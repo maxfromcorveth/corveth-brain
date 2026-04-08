@@ -60,7 +60,13 @@ If a post wouldn’t pass the Carlo test — “does this serve the reader more 
 
 ### ICP (Ideal Customer Profile)
 
-Tech founders selling complex products. Series A/B. 10-50 employees. They built something impressive but can’t sell it consistently. Their CRM is either empty or a mess. They’re considering hiring a head of sales or SDRs but aren’t sure if that’s the right move yet.
+**Primary definition:** CEO, Founder, or CTO at a pre-seed to Series B tech company selling complex products, where the CRM is broken or nonexistent and rev ops infrastructure needs building.
+
+**Profile detail:** 10-50 employees. They built something impressive but can’t sell it consistently. Their CRM is either empty, a mess, or doesn’t exist at all. They’re considering hiring a head of sales or SDRs but aren’t sure if that’s the right move yet. The CRM state is a defining qualifier — if their sales infrastructure is already functional, they’re not the buyer.
+
+**Decision maker titles:** CEO, Founder, CTO. These are the people who feel the pain directly and have budget authority. CTOs matter because in technical product companies, the CTO often owns or influences the sales tooling stack and process decisions.
+
+**Funding range:** Pre-seed through Series B. Earlier-stage founders (pre-seed, seed) often have zero sales infrastructure and need everything built from scratch. Series A/B founders have tried something that isn’t working and need it rebuilt or systematized.
 
 **The person reading your post:**
 
@@ -247,7 +253,7 @@ A real situation with a real lesson. Under 200 words.
 
 - Must include at least 2 specific, concrete details the reader wouldn’t guess
 - Must include at least 1 hard number
-- The founder in the story must look like the ICP (tech founder, Series A/B, complex product)
+- The founder in the story must look like the ICP (tech founder, pre-seed to Series B, complex product)
 - Never use “a client” — use role + company type (“a fintech founder,” “a B2B SaaS CTO”)
 - Reference recent work, not timeless anonymized stories
 - Any real person who inspired the story should feel helped, not exposed
@@ -407,7 +413,7 @@ Every post must pass ALL gates before publishing. **Carlo is Gate 1 — the foun
 
 **Gate 1 — Carlo Test (FOUNDATION):** Does this serve the reader more than it serves me? Is this generous, truthful, and humble? If the post leans toward self-promotion, personal branding, or making Max look good rather than helping the reader solve a problem — rewrite it or kill it. This gate is not a checkbox. It is the lens through which every other gate is evaluated. A post that passes Gates 2-10 but fails Gate 1 does not get published.
 
-**Gate 2 — ICP Check:** Would my ideal buyer (tech founder, Series A/B, complex product) care about this?
+**Gate 2 — ICP Check:** Would my ideal buyer (CEO, Founder, or CTO at a pre-seed to Series B tech company selling complex products, CRM broken or nonexistent) care about this?
 
 **Gate 3 — Voice Check:** Is this lowercase? Under 150w (200 for stories)? No “I” start? No hashtags? No listicles?
 
